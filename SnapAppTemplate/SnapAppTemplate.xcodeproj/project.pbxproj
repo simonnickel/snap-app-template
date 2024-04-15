@@ -12,6 +12,7 @@
 		5A1EEACE2BCD471600422FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEACD2BCD471600422FD8 /* Assets.xcassets */; };
 		5A1EEAD22BCD471600422FD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEAD12BCD471600422FD8 /* Preview Assets.xcassets */; };
 		5A1EEAF42BCD482B00422FD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEAF32BCD482B00422FD8 /* README.md */; };
+		5A1EEAF62BCD489F00422FD8 /* TODO.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEAF52BCD489F00422FD8 /* TODO.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5A1EEACF2BCD471600422FD8 /* SnapAppTemplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnapAppTemplate.entitlements; sourceTree = "<group>"; };
 		5A1EEAD12BCD471600422FD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A1EEAF32BCD482B00422FD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5A1EEAF52BCD489F00422FD8 /* TODO.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = TODO.md; path = ../TODO.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				5A1EEAF32BCD482B00422FD8 /* README.md */,
+				5A1EEAF52BCD489F00422FD8 /* TODO.md */,
 				5A1EEAC82BCD471300422FD8 /* SnapAppTemplate */,
 				5A1EEAC72BCD471300422FD8 /* Products */,
 			);
@@ -130,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1EEAF62BCD489F00422FD8 /* TODO.md in Resources */,
 				5A1EEAF42BCD482B00422FD8 /* README.md in Resources */,
 				5A1EEAD22BCD471600422FD8 /* Preview Assets.xcassets in Resources */,
 				5A1EEACE2BCD471600422FD8 /* Assets.xcassets in Resources */,
