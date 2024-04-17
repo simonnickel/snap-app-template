@@ -10,4 +10,4 @@ Also have a look at [snap-template-shared](https://github.com/simonnickel/snap-t
 
 ## Setup
 
-Follow setup steps of [snap-settings-service](https://github.com/simonnickel/snap-template-shared#setup).
+Follow setup steps of [snap-settings-service](https://github.com/simonnickel/snap-settings-service#setup).
