@@ -10,4 +10,4 @@ Also have a look at [snap-template-shared](https://github.com/simonnickel/snap-t
 
 ## Setup
 
-To support iCloud storage of [snap-settings-service](https://github.com/simonnickel/snap-template-shared), you have to add the `iCloud` Capability to the target and enable the `Key-value storage` checkbox.
+Follow setup steps of [snap-settings-service](https://github.com/simonnickel/snap-template-shared#setup).
