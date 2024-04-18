@@ -8,6 +8,11 @@ Also have a look at [snap-template-shared](https://github.com/simonnickel/snap-t
 > This package is part of the [SNAP](https://github.com/simonnickel/snap-abstract) suite.
 
 
-## Setup
+## Create new App
 
-Follow setup steps of [snap-settings-service](https://github.com/simonnickel/snap-settings-service#setup).
+1. Create and clone repository.
+2. Copy files from snap-app-template.
+3. Rename project.
+3.1. Rename top item in project navigator.
+3.2. Change bundle identifier.
+4. Follow setup steps of [snap-settings-service](https://github.com/simonnickel/snap-settings-service#setup).
