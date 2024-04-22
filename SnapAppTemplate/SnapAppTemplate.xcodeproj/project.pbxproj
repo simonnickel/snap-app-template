@@ -184,13 +184,13 @@
 		5A1EEB1A2BCD4A1000422FD8 /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
-				5A1EEB142BCD4A1000422FD8 /* SnapAppTemplate */,
+				5A6410282BD6F4B10023F0F0 /* App+Environment.swift */,
 				5A1EEB152BCD4A1000422FD8 /* AppContainer.swift */,
 				5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */,
 				5A1EEB172BCD4A1000422FD8 /* AppState.swift */,
-				5A6410282BD6F4B10023F0F0 /* App+Environment.swift */,
 				5A1EEB182BCD4A1000422FD8 /* NavItem.swift */,
 				5A1EEB192BCD4A1000422FD8 /* NavItemDestinationWrapper.swift */,
+				5A1EEB142BCD4A1000422FD8 /* SnapAppTemplate */,
 			);
 			path = AppStructure;
 			sourceTree = "<group>";
