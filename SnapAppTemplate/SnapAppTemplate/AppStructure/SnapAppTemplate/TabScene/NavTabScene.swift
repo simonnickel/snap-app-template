@@ -28,12 +28,7 @@ struct NavTabScene: View {
 				if let item = tabItem as? NavItem {
 					
 					AnyView(NavItem.navigationStack(root: item, for: .tab))
-#if !os(macOS)
-						.theme(toolbarBackground: .bar, placement: .tabBar)
-						// Force visible tab bar here
-						//.toolbarBackground(.visible, for: .tabBar)
-#endif
-					
+
 				}
 			})
 			// Tab Scene has to be reloaded on tab order change. Otherwise things go wrong.

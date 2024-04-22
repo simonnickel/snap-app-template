@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SnapCore
 import SnapTheme
 import SnapMatchingNavigation
 
@@ -55,14 +54,14 @@ extension NavItem {
 				
 			case .tab: destination
 #if !os(macOS)
-				.if(NavItem.tabsAvailable.contains(self)) { view in
-					view.toolbar {
-						ToolbarItem(placement: .topBarLeading) {
-							ToolbarButtonSettings()
-								.buttonStyle(.themeNavbar)
+					.if(NavItem.tabsAvailable.contains(self)) { view in
+						view.toolbar {
+							ToolbarItem(placement: .topBarLeading) {
+								ToolbarButtonSettings()
+									.buttonStyle(.themeNavbar)
+							}
 						}
 					}
-				}
 #endif
 				
 			case .split: destination
