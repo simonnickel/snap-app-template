@@ -170,13 +170,13 @@
 		5A1EEB142BCD4A1000422FD8 /* SnapAppTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				5A6410272BD6F49D0023F0F0 /* Environment */,
-				5A1EEB0B2BCD4A1000422FD8 /* SplitScene */,
-				5A1EEB0F2BCD4A1000422FD8 /* TabScene */,
+				5A1EEB132BCD4A1000422FD8 /* README.md */,
 				5A1EEB102BCD4A1000422FD8 /* AppDependencies+ViewModifier.swift */,
 				5A1EEB112BCD4A1000422FD8 /* DependencyContainer.swift */,
 				5A1EEB122BCD4A1000422FD8 /* NavItem+Template.swift */,
-				5A1EEB132BCD4A1000422FD8 /* README.md */,
+				5A6410272BD6F49D0023F0F0 /* Environment */,
+				5A1EEB0B2BCD4A1000422FD8 /* SplitScene */,
+				5A1EEB0F2BCD4A1000422FD8 /* TabScene */,
 			);
 			path = SnapAppTemplate;
 			sourceTree = "<group>";
@@ -184,13 +184,13 @@
 		5A1EEB1A2BCD4A1000422FD8 /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
-				5A6410282BD6F4B10023F0F0 /* App+Environment.swift */,
+				5A1EEB142BCD4A1000422FD8 /* SnapAppTemplate */,
 				5A1EEB152BCD4A1000422FD8 /* AppContainer.swift */,
 				5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */,
 				5A1EEB172BCD4A1000422FD8 /* AppState.swift */,
+				5A6410282BD6F4B10023F0F0 /* App+Environment.swift */,
 				5A1EEB182BCD4A1000422FD8 /* NavItem.swift */,
 				5A1EEB192BCD4A1000422FD8 /* NavItemDestinationWrapper.swift */,
-				5A1EEB142BCD4A1000422FD8 /* SnapAppTemplate */,
 			);
 			path = AppStructure;
 			sourceTree = "<group>";

@@ -1,5 +1,5 @@
 //
-//  NavItem+Extension.swift
+//  NavItem+Template.swift
 //  SnapAppTemplate
 //
 //  Created by Simon Nickel on 19.09.23.
