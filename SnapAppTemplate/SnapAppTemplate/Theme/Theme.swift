@@ -11,7 +11,7 @@ extension Theme {
 	
 	static let baseApp: Theme = Theme(
 		icons: IconKey.definitionsApp,
-		values: ValueKey.definitionsApp,
+		numbers: NumberKey.definitionsApp,
 		colors: ColorKey.definitionsApp,
 		surfaces: SurfaceKey.definitionsApp,
 		backgrounds: BackgroundKey.definitionsApp,
