@@ -85,7 +85,7 @@ struct NavSidebarScreen: View {
 	} detail: {
 		
 		if let scene = selection {
-			AnyView(scene.destination())
+			AnyView(scene.destination(for: .split))
 		}
 		
 	}
