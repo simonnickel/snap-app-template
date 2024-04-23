@@ -23,6 +23,11 @@ struct ExampleScreen: View {
 				
 				Text(dataSource.content)
 				
+				Button(action: {}, label: {
+					ThemeLabel(text: "Button", style: .themeButtonPrimary)
+				})
+				.buttonStyle(.themePrimary)
+				
 			}
 	
 		}
