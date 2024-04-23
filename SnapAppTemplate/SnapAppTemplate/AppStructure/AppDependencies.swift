@@ -10,6 +10,7 @@ import Observation
 import SnapTemplateShared
 
 /// Definition and application of dependenies to use in the app.
+@MainActor
 @Observable class AppDependencies {
 	
 	private let templateDependencies: TemplateDependencies
