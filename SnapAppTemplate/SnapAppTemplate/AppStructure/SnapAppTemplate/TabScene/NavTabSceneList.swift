@@ -21,7 +21,7 @@ struct NavTabSceneList: View {
 	
 	var body: some View {
 		
-		ThemeSceneList {
+		ThemeScreenList {
 			
 			ForEach(tab.subItems) { scene in
 				NavigationLink(value: WrappedScene(scene: scene)) {

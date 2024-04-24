@@ -17,7 +17,7 @@ struct ExampleScreen: View {
 	
 	var body: some View {
 		
-		ThemeScene {
+		ThemeScreen {
 			
 			VStack {
 				

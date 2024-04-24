@@ -7,7 +7,7 @@
       "location" : "https://github.com/simonnickel/snap-core",
       "state" : {
         "branch" : "main",
-        "revision" : "8f83dd6453e2c498d195c28f4cdce2326ee7f12c"
+        "revision" : "3f494f48f14e8ed06f89b75b96f47f061c3273fd"
       }
     },
     {
@@ -34,7 +34,7 @@
       "location" : "https://github.com/simonnickel/snap-template-shared.git",
       "state" : {
         "branch" : "main",
-        "revision" : "1842f67b5a95e8680132fab97b253c17028fbf78"
+        "revision" : "f1ef16f8201db909884969e72030567a17be4c93"
       }
     },
     {
@@ -43,7 +43,7 @@
       "location" : "https://github.com/simonnickel/snap-theme",
       "state" : {
         "branch" : "main",
-        "revision" : "675c2534bbaf7873420161c9fa01e26c8b2fd5e9"
+        "revision" : "0faacada3feecfe36945b1fa89d7da89bb7fe8ed"
       }
     }
   ],

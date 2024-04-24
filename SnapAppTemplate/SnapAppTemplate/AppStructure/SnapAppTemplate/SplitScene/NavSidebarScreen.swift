@@ -22,7 +22,7 @@ struct NavSidebarScreen: View {
 	let isCollapsed: Bool
 	
 	var body: some View {
-		ThemeSceneSidebar(selection: $selection, collapsed: isCollapsed) {
+		ThemeScreenSidebar(selection: $selection, collapsed: isCollapsed) {
 			ForEach(sections) { section in
 				Section {
 					
