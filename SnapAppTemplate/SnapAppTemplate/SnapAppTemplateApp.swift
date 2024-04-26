@@ -29,8 +29,8 @@ struct SnapAppTemplateApp: App {
 #if os(macOS)
 		Settings {
 			SettingsScene()
-				.apply(dependenciesTemplate)
 				.apply(dependencies)
+				.apply(dependenciesTemplate)
 		}
 #endif
     }
