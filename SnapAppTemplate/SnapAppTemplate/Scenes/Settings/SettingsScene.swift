@@ -17,11 +17,7 @@ struct SettingsScene: View {
 	@Environment(\.theme) private var theme
 	@Environment(\.serviceSettings) private var settings
 	
-	private let navSelectionState = SelectionState()
-	
-	@Observable class SelectionState {
-		var selectedItems: [SettingsNavItem] = []
-	}
+	private let navSelectionState = ListNavState<SettingsNavItem>()
 	
 	var body: some View {
 		
@@ -51,10 +47,9 @@ struct SettingsScene: View {
 						
 					}
 					
-					NavigationLink(value: SettingsNavItem.tabs) {
+					ThemeListRowNavigationLink(value: SettingsNavItem.tabs, state: navSelectionState) {
 						ThemeLabel(text: "Configure Tab Bar")
 					}
-					.themeListRow(isSelected: navSelectionState.selectedItems.contains(SettingsNavItem.tabs))
 					
 				} header: {
 					ThemeLabel(text: "Appearance")
@@ -62,15 +57,8 @@ struct SettingsScene: View {
 				}
 				
 			}
-			.navigationDestination(for: SettingsNavItem.self) { item in
+			.navigationDestinationStored(in: navSelectionState) { item in
 				AnyView(item.destination)
-					.onAppear {
-						navSelectionState.selectedItems.append(item)
-					}
-					.onDisappear {
-						navSelectionState.selectedItems.removeAll(where: { $0 == item })
-					}
-					.environment(navSelectionState)
 			}
 			
 		}

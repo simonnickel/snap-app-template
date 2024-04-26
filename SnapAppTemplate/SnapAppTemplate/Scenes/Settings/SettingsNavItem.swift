@@ -8,7 +8,7 @@
 import SwiftUI
 import SnapTemplateShared
 
-enum SettingsNavItem {
+enum SettingsNavItem: Codable {
 	
 	case tabs
 	
