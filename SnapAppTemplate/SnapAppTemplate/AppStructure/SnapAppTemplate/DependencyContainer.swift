@@ -36,8 +36,8 @@ struct DependencyContainer: View {
 				SettingsScene()
 			})
 		}
-		.apply(templateDependencies)
 		.apply(dependencies)
+		.apply(templateDependencies)
 		
 	}
 	
