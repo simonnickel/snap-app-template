@@ -1,4 +1,4 @@
-> This package is part of the [SNAP](https://github.com/simonnickel/snap-abstract) suite.
+> This repository is part of the [SNAP](https://github.com/simonnickel/snap-abstract) suite.
 
 
 # SnapAppTemplate
