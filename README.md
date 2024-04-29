@@ -34,7 +34,7 @@ The Template comes with:
 1. Infrastructure to define dependencies and has the SNAP packages ready to go.
 2. A setup to define a navigation hierarchy for the app.
 3. Uses [snap-matching-navigation](https://github.com/simonnickel/snap-matching-navigation) to show a Sidebar on macOS / iPadOS and a Tabbar on iOS.
-4. Provides a base settings screen with some theme configuration options. 
+4. A base settings screen using [snap-settings-service](https://github.com/simonnickel/snap-settings-service) with some theme configuration options. 
 
 <img src="/screenshot.png" height="400">
 <img src="/screenshot-settings.png" height="400">
