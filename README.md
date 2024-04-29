@@ -7,7 +7,7 @@
 
 # SnapAppTemplate
 
-An Xcode project with a base setup of [SNAP](https://github.com/simonnickel/snap-abstract). The app comes with a basic structure, navigation and infrastructure. It is used as a template to quickly setup a new app.
+An Xcode project with a base setup of [SNAP](https://github.com/simonnickel/snap-abstract). The app comes with structure, navigation and infrastructure prepared, to quickly setup a new app using the SNAP packages.
 
 Also have a look at [snap-template-shared](https://github.com/simonnickel/snap-template-shared) for shared features and implementations.
 
@@ -23,7 +23,7 @@ Also have a look at [snap-template-shared](https://github.com/simonnickel/snap-t
 >
 > (Source: Someone on the internet)
 
-The goal of SnapTemplate is to already have the last 20% of the app ready, before you even start the project. Even if you don't plan to finish it, testing a quick idea is much better with a full app experience around it.
+The goal of SnapTemplate is to already have the last 20% ready, before you even start the project. Even if you don't plan to finish it, testing a quick idea is much better with a full app experience around it.
 
 
 ## Create new App
