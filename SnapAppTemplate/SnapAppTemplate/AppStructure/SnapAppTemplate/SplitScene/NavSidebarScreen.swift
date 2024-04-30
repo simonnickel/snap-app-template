@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SnapTheme
+import SnapTemplateShared
 
 // FB13310835 - SwiftUI macOS: Highlighted row in a list should be available.
 // Highlight applies the colored background, but only selection can be used to adjust the view. Highlight happens on mouse down, while selection on mouse up.
@@ -27,33 +28,13 @@ struct NavSidebarScreen: View {
 				Section {
 					
 					ForEach(section.subItems) { item in
-						
-						if isCollapsed {
-							
-							NavigationLink(value: item) {
-								ThemeLabel(
-									text: item.title,
-									icon: item.icon,
-									style: .themeListRow()
-								)
-							}
-							.themeListRow(isSelected: selection == item)
-							
-						} else {
-							
-							ThemeNavLinkSidebarRow(
-								value: item,
-								isSelected: selection == item
-							){
-								ThemeLabel(
-									text: item.title,
-									icon: item.icon,
-									style: .themeSidebar(isSelected: selection == item)
-								)
-							}
-							
-						}
-						
+						NavItemRow(
+							value: item,
+							title: item.title,
+							icon: item.icon,
+							inSidebar: !isCollapsed,
+							isSelected: selection == item
+						)
 					}
 					
 				} header: {
