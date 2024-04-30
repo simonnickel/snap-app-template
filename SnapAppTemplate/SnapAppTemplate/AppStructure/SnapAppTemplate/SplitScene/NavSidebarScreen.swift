@@ -28,16 +28,30 @@ struct NavSidebarScreen: View {
 					
 					ForEach(section.subItems) { item in
 						
-						ThemeNavLinkSidebarRow(
-							value: item,
-							isSelected: selection == item,
-							isCollapsed: isCollapsed
-						){
-							ThemeLabel(
-								text: item.title,
-								icon: item.icon,
-								style: .themeSidebar(isSelected: selection == item)
-							)
+						if isCollapsed {
+							
+							NavigationLink(value: item) {
+								ThemeLabel(
+									text: item.title,
+									icon: item.icon,
+									style: .themeListRow()
+								)
+							}
+							.themeListRow(isSelected: selection == item)
+							
+						} else {
+							
+							ThemeNavLinkSidebarRow(
+								value: item,
+								isSelected: selection == item
+							){
+								ThemeLabel(
+									text: item.title,
+									icon: item.icon,
+									style: .themeSidebar(isSelected: selection == item)
+								)
+							}
+							
 						}
 						
 					}
