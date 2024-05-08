@@ -9,9 +9,6 @@ import SwiftUI
 import SnapTheme
 import SnapTemplateShared
 
-// FB13310835 - SwiftUI macOS: Highlighted row in a list should be available.
-// Highlight applies the colored background, but only selection can be used to adjust the view. Highlight happens on mouse down, while selection on mouse up.
-
 struct NavSidebarScreen: View {
 	
 	@Environment(\.appState) private var appState
