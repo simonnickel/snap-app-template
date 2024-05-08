@@ -38,3 +38,10 @@ The Template comes with:
 
 <img src="/screenshot.png" height="400">
 <img src="/screenshot-settings.png" height="400">
+
+
+## Configurations
+
+### Info.plist
+
+Added `ITSAppUsesNonExemptEncryption` key with value `NO`, see: [Complying with Encryption Export Regulations](https://developer.apple.com/documentation/security/complying_with_encryption_export_regulations)
