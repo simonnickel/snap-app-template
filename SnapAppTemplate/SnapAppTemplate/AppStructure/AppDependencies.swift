@@ -10,7 +10,7 @@ import Observation
 import SnapTemplateShared
 
 /// Definition and application of dependenies to use in the app.
-@Observable class AppDependencies {
+@Observable class AppDependencies: Dependencies {
 	
 	private let templateDependencies: TemplateDependencies
 	private var appState: AppState
@@ -30,7 +30,7 @@ import SnapTemplateShared
 	// MARK: - Apply
 	
 	/// Apply dependencies defined in project. See `TemplateDependencies` for template defined dependencies.
-	func apply<Content: View>(on content: Content) -> some View {
+	func apply<Content: View>(on content: Content) -> any View {
 		
 		return content
 			.environment(\.appState, appState)

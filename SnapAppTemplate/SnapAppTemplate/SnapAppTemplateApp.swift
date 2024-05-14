@@ -16,7 +16,7 @@ struct SnapAppTemplateApp: App {
 	
 	init() {
 		
-		self.dependenciesTemplate = TemplateDependencies(templateState: .init(theme: .baseApp))
+		self.dependenciesTemplate = TemplateDependencies(theme: .baseApp)
 		self.dependencies = AppDependencies(templateDependencies: dependenciesTemplate)
 		
 	}
@@ -30,9 +30,9 @@ struct SnapAppTemplateApp: App {
 		
 #if os(macOS)
 		Settings {
-			SettingsScene()
-				.apply(dependencies)
-				.apply(dependenciesTemplate)
+			DependencyContainer(dependencies: dependencies, dependenciesTemplate: dependenciesTemplate) {
+				SettingsScene()
+			}
 		}
 #endif
     }
@@ -43,18 +43,17 @@ struct SnapAppTemplateApp: App {
 
 #Preview {
 	
-	let template = TemplateDependencies(templateState: .init(
+	let template = TemplateDependencies(templateState: .init(showSettings: false),
 		theme: .baseApp.replacingValues(
 			colors: [
 				.accentColorBase: .color(.purple)
 			]
-		),
-		showSettings: false
-	))
+		)
+	)
 	let appState = AppState()
 	
 	return DependencyContainer(
-		dependencies: .init(templateDependencies: template, appState: appState),
+		dependencies: AppDependencies(templateDependencies: template, appState: appState),
 		dependenciesTemplate: template
 	) {
 		AppContent()

@@ -2,4 +2,4 @@
 
 Files in this folder are copied from SnapAppTemplate.
 
-When editing a file in here, move it one level up. Consider porting the change to SnapAppTemplate.
+They should be held in sync: When editing a file, copy the change to SnapAppTemplate as well or move it one level up to indicate that it is different on purpose.
