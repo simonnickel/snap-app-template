@@ -30,6 +30,7 @@ import SnapTemplateShared
 	// MARK: - Apply
 	
 	/// Apply dependencies defined in project. See `TemplateDependencies` for template defined dependencies.
+	@MainActor
 	func apply<Content: View>(on content: Content) -> any View {
 		
 		return content
