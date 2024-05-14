@@ -245,9 +245,9 @@
 		5A45670A2BF3BFCE001029CB /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
-				5A1EEB062BCD4A1000422FD8 /* AppState+Environment.swift */,
 				5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */,
 				5A1EEB122BCD4A1000422FD8 /* NavItem+Template.swift */,
+				5A1EEB062BCD4A1000422FD8 /* AppState+Environment.swift */,
 			);
 			path = AppStructure;
 			sourceTree = "<group>";
