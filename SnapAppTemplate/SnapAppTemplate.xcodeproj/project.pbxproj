@@ -26,7 +26,7 @@
 		5A1EEB232BCD4A1000422FD8 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB112BCD4A1000422FD8 /* DependencyContainer.swift */; };
 		5A1EEB242BCD4A1000422FD8 /* NavItem+Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB122BCD4A1000422FD8 /* NavItem+Template.swift */; };
 		5A1EEB252BCD4A1000422FD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEB132BCD4A1000422FD8 /* README.md */; };
-		5A1EEB262BCD4A1000422FD8 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB152BCD4A1000422FD8 /* AppContainer.swift */; };
+		5A1EEB262BCD4A1000422FD8 /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB152BCD4A1000422FD8 /* AppContent.swift */; };
 		5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */; };
 		5A1EEB282BCD4A1000422FD8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB172BCD4A1000422FD8 /* AppState.swift */; };
 		5A1EEB292BCD4A1000422FD8 /* NavItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB182BCD4A1000422FD8 /* NavItem.swift */; };
@@ -68,7 +68,7 @@
 		5A1EEB112BCD4A1000422FD8 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		5A1EEB122BCD4A1000422FD8 /* NavItem+Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavItem+Template.swift"; sourceTree = "<group>"; };
 		5A1EEB132BCD4A1000422FD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5A1EEB152BCD4A1000422FD8 /* AppContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		5A1EEB152BCD4A1000422FD8 /* AppContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
 		5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		5A1EEB172BCD4A1000422FD8 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		5A1EEB182BCD4A1000422FD8 /* NavItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavItem.swift; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				5A1EEB142BCD4A1000422FD8 /* SnapAppTemplate */,
-				5A1EEB152BCD4A1000422FD8 /* AppContainer.swift */,
+				5A1EEB152BCD4A1000422FD8 /* AppContent.swift */,
 				5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */,
 				5A1EEB172BCD4A1000422FD8 /* AppState.swift */,
 				5A6410282BD6F4B10023F0F0 /* App+Environment.swift */,
@@ -342,7 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A1EEB342BCD4A2F00422FD8 /* SettingsScene.swift in Sources */,
-				5A1EEB262BCD4A1000422FD8 /* AppContainer.swift in Sources */,
+				5A1EEB262BCD4A1000422FD8 /* AppContent.swift in Sources */,
 				5A1EEB2D2BCD4A1E00422FD8 /* DataSource.swift in Sources */,
 				5A1EEB472BCD4A4500422FD8 /* SurfaceKeys+App.swift in Sources */,
 				5A1EEB242BCD4A1000422FD8 /* NavItem+Template.swift in Sources */,

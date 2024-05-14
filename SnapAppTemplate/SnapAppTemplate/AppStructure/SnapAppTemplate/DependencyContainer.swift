@@ -9,35 +9,29 @@ import SwiftUI
 import SnapTheme
 import SnapTemplateShared
 
-/// The main SnapAppTemplate container view to setup scenes for `TemplateContent` and apply `AppDependencies` and `TemplateDependencies`.
-/// Uses `AppContainer` as an intermediate view to apply further customisation to the content.
-struct DependencyContainer: View {
+/// The `DependencyContainer` applies dependencies on the `Content`.
+struct DependencyContainer<Content: View>: View {
 	
 	private let dependencies: AppDependencies
 	private let templateDependencies: TemplateDependencies
+
+	@ViewBuilder private let content: () -> Content
 	
-	/// The `DependencyContainer` wraps the `TemplateContent` in the `AppContainer` and the `TemplateContainer` and forwards Dependencies.
+	/// The `DependencyContainer` applies dependencies on the `Content`.
 	/// - Parameters:
 	///   - dependencies: `AppDependencies` should be owned outside of the View.
 	///   - dependenciesTemplate: `TemplateDependencies` should be owned outside of the View.
-	init(dependencies: AppDependencies, dependenciesTemplate: TemplateDependencies) {
+	init(dependencies: AppDependencies, dependenciesTemplate: TemplateDependencies, @ViewBuilder content: @escaping () -> Content) {
 		self.dependencies = dependencies
 		self.templateDependencies = dependenciesTemplate
+		self.content = content
 	}
 	
 	var body: some View {
-	
-		AppContainer {
-			TemplateContent(splitScene: {
-				NavSplitScene(sections: NavItem.sidebarSections)
-			}, tabScene: { settings in
-				NavTabScene(tabsSetting: settings.value(.navigationTabs))
-			}, settingsScene: {
-				SettingsScene()
-			})
-		}
-		.apply(dependencies)
-		.apply(templateDependencies)
+		
+		content()
+			.apply(dependencies)
+			.apply(templateDependencies)
 		
 	}
 	
@@ -61,6 +55,8 @@ struct DependencyContainer: View {
 	return DependencyContainer(
 		dependencies: .init(templateDependencies: template, appState: appState),
 		dependenciesTemplate: template
-	)
+	) {
+		AppContent()
+	}
 	
 }
