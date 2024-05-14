@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SnapTheme
-import SnapTemplateShared
 
 /// A container to apply app specific customisation to the content.
 struct AppContent: View {
@@ -23,16 +22,6 @@ struct AppContent: View {
 		// App specific things, e.g. :
 		// .modalPresentation(style: appStateBinding., isPresented:, content: {}, onClose: { appStateBinding..wrappedValue = nil })
 		
-	}
-	
-	private var templateBody: some View {
-		TemplateContent(splitScene: {
-			NavSplitScene(sections: NavItem.sidebarSections)
-		}, tabScene: { settings in
-			NavTabScene(tabsSetting: settings.value(.navigationTabs))
-		}, settingsScene: {
-			SettingsScene()
-		})
 	}
 	
 }
