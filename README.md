@@ -45,3 +45,9 @@ The Template comes with:
 ### Info.plist
 
 Added `ITSAppUsesNonExemptEncryption` key with value `NO`, see: [Complying with Encryption Export Regulations](https://developer.apple.com/documentation/security/complying_with_encryption_export_regulations)
+
+### Build Settings
+
+Enabled Strict Concurrency checking in build settings to prepare for changes Swift 6:
+
+`SWIFT_STRICT_CONCURRENCY = complete;`
