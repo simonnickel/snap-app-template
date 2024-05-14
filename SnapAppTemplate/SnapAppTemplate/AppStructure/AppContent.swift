@@ -19,6 +19,13 @@ struct AppContent: View {
 	
 	var body: some View {
 	
+		templateBody
+		// App specific things, e.g. :
+		// .modalPresentation(style: appStateBinding., isPresented:, content: {}, onClose: { appStateBinding..wrappedValue = nil })
+		
+	}
+	
+	private var templateBody: some View {
 		TemplateContent(splitScene: {
 			NavSplitScene(sections: NavItem.sidebarSections)
 		}, tabScene: { settings in
@@ -26,7 +33,6 @@ struct AppContent: View {
 		}, settingsScene: {
 			SettingsScene()
 		})
-		
 	}
 	
 }
