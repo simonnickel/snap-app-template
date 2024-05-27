@@ -23,14 +23,14 @@ struct SnapAppTemplateApp: App {
 	
     var body: some Scene {
 		WindowGroup {
-			DependencyContainer(dependencies: dependencies, dependenciesTemplate: dependenciesTemplate) {
+			DependencyWrapper(app: dependencies, template: dependenciesTemplate) {
 				AppContent()
 			}
 		}
 		
 #if os(macOS)
 		Settings {
-			DependencyContainer(dependencies: dependencies, dependenciesTemplate: dependenciesTemplate) {
+			DependencyWrapper(app: dependencies, template: dependenciesTemplate) {
 				SettingsScene()
 			}
 		}
@@ -52,9 +52,9 @@ struct SnapAppTemplateApp: App {
 	)
 	let appState = AppState()
 	
-	return DependencyContainer(
-		dependencies: AppDependencies(templateDependencies: template, appState: appState),
-		dependenciesTemplate: template
+	return DependencyWrapper(
+		app: AppDependencies(templateDependencies: template, appState: appState),
+		template: template
 	) {
 		AppContent()
 	}
