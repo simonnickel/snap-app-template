@@ -17,8 +17,8 @@ private struct MyTypeKey: EnvironmentKey {
 extension EnvironmentValues {
 
 	var myType: MyType {
-		get { self[MyType.self] }
-		set { self[MyType.self] = newValue }
+		get { self[MyTypeKey.self] }
+		set { self[MyTypeKey.self] = newValue }
 	}
 	
 }
