@@ -6,19 +6,21 @@
 //
 
 import SwiftUI
+import SnapTemplateShared
 import SnapMatchingNavigation
 
-protocol NavigationDestinationFactory {
-
-	@MainActor
-	func destination(for destination: AppDestination, in mode: MNavContainer.Mode) -> any View
-		
-}
-
-extension AppDependencies: NavigationDestinationFactory {
+class AppDestinationFactory: NavigationDestinationFactory, ObservableObject {
+	
+	let dependencies: AppDependencies
+	
+	init(dependencies: AppDependencies) {
+		self.dependencies = dependencies
+	}
+	
+	typealias DestinationType = AppDestination
 	
 	@MainActor
-	func destination(for destination: AppDestination, in mode: MNavContainer.Mode) -> any View {
+	func destination(for destination: DestinationType, in mode: MNavContainer.Mode) -> any View {
 		
 		let destinationView = AnyView(destinationBase(for: destination, in: mode))
 			.if(unwrap: destination.title, transform: { view, title in

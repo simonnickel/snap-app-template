@@ -44,7 +44,6 @@
 		5A45670C2BF3BFE7001029CB /* AppContent+TemplateBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */; };
 		5A6410292BD6F4B10023F0F0 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */; };
 		5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */; };
-		5AA7EC1D2C04BC4A00F83444 /* AppNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1C2C04BC4A00F83444 /* AppNavigationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,7 +84,6 @@
 		5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppContent+TemplateBody.swift"; sourceTree = "<group>"; };
 		5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestinationFactory.swift; sourceTree = "<group>"; };
-		5AA7EC1C2C04BC4A00F83444 /* AppNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +243,6 @@
 		5A45670A2BF3BFCE001029CB /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
-				5AA7EC1C2C04BC4A00F83444 /* AppNavigationStack.swift */,
 				5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */,
 				5A1EEB062BCD4A1000422FD8 /* AppEnvironment+Template.swift */,
 			);
@@ -345,7 +342,6 @@
 				5A1EEB472BCD4A4500422FD8 /* SurfaceKeys+App.swift in Sources */,
 				5A1EEB452BCD4A4500422FD8 /* FontKeys+App.swift in Sources */,
 				5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */,
-				5AA7EC1D2C04BC4A00F83444 /* AppNavigationStack.swift in Sources */,
 				5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */,
 				5A1EEB1E2BCD4A1000422FD8 /* ToolbarButtonSettings.swift in Sources */,
 				5A1EEB352BCD4A2F00422FD8 /* ExampleScreen.swift in Sources */,

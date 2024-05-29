@@ -12,6 +12,7 @@ import SnapTemplateShared
 struct NavSplitScene: View {
 	
 	@Environment(\.templateStateBinding) private var templateStateBinding
+	@EnvironmentObject private var destinationFactory: AppDestinationFactory
 	
 	let sections: [AppDestination]
 	
@@ -34,7 +35,7 @@ struct NavSplitScene: View {
 			}, detail: {
 				
 				if let selected = selectedInSidebar {
-					AppNavigationStack(root: selected, mode: .split)
+					TemplateNavigationStack(factory: destinationFactory, root: selected, mode: .split)
 				} else {
 					ThemeEmptyDecorationView(text: "Select something in the sidebar.")
 				}

@@ -13,6 +13,8 @@ import SnapTemplateShared
 
 struct NavTabScene: View {
 	
+	@EnvironmentObject private var destinationFactory: AppDestinationFactory
+	
 	let tabsSetting: SettingsService.Value<TabConfiguration?>
 	
 	@State private var selectedTab: MNavItem.ID = AppDestination.initial.id
@@ -27,7 +29,7 @@ struct NavTabScene: View {
 			MNavTabScene(tabs: tabs, selected: $selectedTab, tabScreen: { tabItem in
 				if let item = tabItem as? AppDestination {
 					
-					AppNavigationStack(root: item, mode: .tab)
+					TemplateNavigationStack(factory: destinationFactory, root: item, mode: .tab)
 
 				}
 			})

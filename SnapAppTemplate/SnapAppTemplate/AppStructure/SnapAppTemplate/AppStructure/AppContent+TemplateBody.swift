@@ -10,6 +10,7 @@ import SnapTemplateShared
 
 extension AppContent {
 	
+	@MainActor
 	var templateBody: some View {
 		TemplateContent(splitScene: {
 			NavSplitScene(sections: AppDestination.sidebarSections)
