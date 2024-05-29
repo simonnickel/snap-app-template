@@ -13,7 +13,7 @@ struct ExampleScreen: View {
 	@Environment(\.theme) private var theme
 	@Environment(\.dataSource) private var dataSource
 	
-	let item: NavItem
+	let item: AppDestination
 	
 	var body: some View {
 		

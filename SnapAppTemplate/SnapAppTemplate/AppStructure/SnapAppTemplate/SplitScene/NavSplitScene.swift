@@ -13,9 +13,9 @@ struct NavSplitScene: View {
 	
 	@Environment(\.templateStateBinding) private var templateStateBinding
 	
-	let sections: [NavItem]
+	let sections: [AppDestination]
 	
-	@State private var selectedInSidebar: NavItem? = NavItem.initial.subItems.first
+	@State private var selectedInSidebar: AppDestination? = AppDestination.initial.subItems.first
 	@State private var preferredCompactColumn: NavigationSplitViewColumn = .content
 	@State private var isCollapsed: Bool = false
 

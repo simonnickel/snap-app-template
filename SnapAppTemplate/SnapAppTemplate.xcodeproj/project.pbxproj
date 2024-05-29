@@ -22,12 +22,12 @@
 		5A1EEB1F2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0C2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift */; };
 		5A1EEB202BCD4A1000422FD8 /* NavTabScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0D2BCD4A1000422FD8 /* NavTabScene.swift */; };
 		5A1EEB212BCD4A1000422FD8 /* NavTabSceneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0E2BCD4A1000422FD8 /* NavTabSceneList.swift */; };
-		5A1EEB242BCD4A1000422FD8 /* NavItem+Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB122BCD4A1000422FD8 /* NavItem+Template.swift */; };
+		5A1EEB242BCD4A1000422FD8 /* AppDestination+Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB122BCD4A1000422FD8 /* AppDestination+Template.swift */; };
 		5A1EEB252BCD4A1000422FD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEB132BCD4A1000422FD8 /* README.md */; };
 		5A1EEB262BCD4A1000422FD8 /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB152BCD4A1000422FD8 /* AppContent.swift */; };
 		5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */; };
 		5A1EEB282BCD4A1000422FD8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB172BCD4A1000422FD8 /* AppState.swift */; };
-		5A1EEB292BCD4A1000422FD8 /* NavItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB182BCD4A1000422FD8 /* NavItem.swift */; };
+		5A1EEB292BCD4A1000422FD8 /* AppDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB182BCD4A1000422FD8 /* AppDestination.swift */; };
 		5A1EEB2D2BCD4A1E00422FD8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB2B2BCD4A1E00422FD8 /* DataSource.swift */; };
 		5A1EEB332BCD4A2F00422FD8 /* SettingsNavItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB2E2BCD4A2F00422FD8 /* SettingsNavItem.swift */; };
 		5A1EEB342BCD4A2F00422FD8 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB2F2BCD4A2F00422FD8 /* SettingsScene.swift */; };
@@ -44,7 +44,7 @@
 		5A1EEB4B2BCD4A4500422FD8 /* NumberKeys+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */; };
 		5A45670C2BF3BFE7001029CB /* AppContent+TemplateBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */; };
 		5A6410292BD6F4B10023F0F0 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */; };
-		5AA7EC1B2C04B94A00F83444 /* AppDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1A2C04B94A00F83444 /* AppDestinations.swift */; };
+		5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */; };
 		5AA7EC1D2C04BC4A00F83444 /* AppNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1C2C04BC4A00F83444 /* AppNavigationStack.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,12 +64,12 @@
 		5A1EEB0C2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavItem+TabConfiguration.swift"; sourceTree = "<group>"; };
 		5A1EEB0D2BCD4A1000422FD8 /* NavTabScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTabScene.swift; sourceTree = "<group>"; };
 		5A1EEB0E2BCD4A1000422FD8 /* NavTabSceneList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTabSceneList.swift; sourceTree = "<group>"; };
-		5A1EEB122BCD4A1000422FD8 /* NavItem+Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavItem+Template.swift"; sourceTree = "<group>"; };
+		5A1EEB122BCD4A1000422FD8 /* AppDestination+Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDestination+Template.swift"; sourceTree = "<group>"; };
 		5A1EEB132BCD4A1000422FD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A1EEB152BCD4A1000422FD8 /* AppContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
 		5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		5A1EEB172BCD4A1000422FD8 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		5A1EEB182BCD4A1000422FD8 /* NavItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavItem.swift; sourceTree = "<group>"; };
+		5A1EEB182BCD4A1000422FD8 /* AppDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDestination.swift; sourceTree = "<group>"; };
 		5A1EEB2B2BCD4A1E00422FD8 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		5A1EEB2E2BCD4A2F00422FD8 /* SettingsNavItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavItem.swift; sourceTree = "<group>"; };
 		5A1EEB2F2BCD4A2F00422FD8 /* SettingsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberKeys+App.swift"; sourceTree = "<group>"; };
 		5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppContent+TemplateBody.swift"; sourceTree = "<group>"; };
 		5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
-		5AA7EC1A2C04B94A00F83444 /* AppDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestinations.swift; sourceTree = "<group>"; };
+		5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestinationFactory.swift; sourceTree = "<group>"; };
 		5AA7EC1C2C04BC4A00F83444 /* AppNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,12 +184,12 @@
 			isa = PBXGroup;
 			children = (
 				5A1EEB142BCD4A1000422FD8 /* SnapAppTemplate */,
-				5A1EEB152BCD4A1000422FD8 /* AppContent.swift */,
 				5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */,
-				5AA7EC1A2C04B94A00F83444 /* AppDestinations.swift */,
 				5A1EEB172BCD4A1000422FD8 /* AppState.swift */,
 				5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */,
-				5A1EEB182BCD4A1000422FD8 /* NavItem.swift */,
+				5A1EEB182BCD4A1000422FD8 /* AppDestination.swift */,
+				5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */,
+				5A1EEB152BCD4A1000422FD8 /* AppContent.swift */,
 			);
 			path = AppStructure;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 			children = (
 				5AA7EC1C2C04BC4A00F83444 /* AppNavigationStack.swift */,
 				5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */,
-				5A1EEB122BCD4A1000422FD8 /* NavItem+Template.swift */,
+				5A1EEB122BCD4A1000422FD8 /* AppDestination+Template.swift */,
 				5A1EEB062BCD4A1000422FD8 /* TemplateEnvironment.swift */,
 			);
 			path = AppStructure;
@@ -346,11 +346,11 @@
 				5A1EEB2D2BCD4A1E00422FD8 /* DataSource.swift in Sources */,
 				5A45670C2BF3BFE7001029CB /* AppContent+TemplateBody.swift in Sources */,
 				5A1EEB472BCD4A4500422FD8 /* SurfaceKeys+App.swift in Sources */,
-				5A1EEB242BCD4A1000422FD8 /* NavItem+Template.swift in Sources */,
+				5A1EEB242BCD4A1000422FD8 /* AppDestination+Template.swift in Sources */,
 				5A1EEB452BCD4A4500422FD8 /* FontKeys+App.swift in Sources */,
 				5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */,
 				5AA7EC1D2C04BC4A00F83444 /* AppNavigationStack.swift in Sources */,
-				5AA7EC1B2C04B94A00F83444 /* AppDestinations.swift in Sources */,
+				5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */,
 				5A1EEB1E2BCD4A1000422FD8 /* ToolbarButtonSettings.swift in Sources */,
 				5A1EEB352BCD4A2F00422FD8 /* ExampleScreen.swift in Sources */,
 				5A1EEB1C2BCD4A1000422FD8 /* NavSidebarScreen.swift in Sources */,
@@ -364,7 +364,7 @@
 				5A1EEACA2BCD471400422FD8 /* SnapAppTemplateApp.swift in Sources */,
 				5A1EEB332BCD4A2F00422FD8 /* SettingsNavItem.swift in Sources */,
 				5A1EEB212BCD4A1000422FD8 /* NavTabSceneList.swift in Sources */,
-				5A1EEB292BCD4A1000422FD8 /* NavItem.swift in Sources */,
+				5A1EEB292BCD4A1000422FD8 /* AppDestination.swift in Sources */,
 				5A1EEB202BCD4A1000422FD8 /* NavTabScene.swift in Sources */,
 				5A1EEB4B2BCD4A4500422FD8 /* NumberKeys+App.swift in Sources */,
 				5A1EEB432BCD4A4500422FD8 /* BackgroundKeys+App.swift in Sources */,

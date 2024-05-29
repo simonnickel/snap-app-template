@@ -15,17 +15,17 @@ struct NavTabScene: View {
 	
 	let tabsSetting: SettingsService.Value<TabConfiguration?>
 	
-	@State private var selectedTab: MNavItem.ID = NavItem.initial.id
+	@State private var selectedTab: MNavItem.ID = AppDestination.initial.id
 	
 	var body: some View {
 		
 		let configuration = tabsSetting.value
-		let tabs = NavItem.tabs(with: configuration)
+		let tabs = AppDestination.tabs(with: configuration)
 		
 		if tabs.count > 0 {
 			
 			MNavTabScene(tabs: tabs, selected: $selectedTab, tabScreen: { tabItem in
-				if let item = tabItem as? NavItem {
+				if let item = tabItem as? AppDestination {
 					
 					AppNavigationStack(root: item, mode: .tab)
 

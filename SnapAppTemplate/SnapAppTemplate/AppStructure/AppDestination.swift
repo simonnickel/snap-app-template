@@ -1,5 +1,5 @@
 //
-//  NavItem.swift
+//  AppDestination.swift
 //  SnapAppTemplate
 //
 //  Created by Simon Nickel on 03.09.23.
@@ -10,7 +10,7 @@ import SnapTheme
 import SnapMatchingNavigation
 
 /// Definition of main navigation hierarchy for Tab and Sidebar layouts.
-enum NavItem: MNavItem, Codable, Equatable, Hashable, Identifiable {
+enum AppDestination: MNavItem, Codable, Equatable, Hashable, Identifiable {
 	
 	
 	// MARK: - Scenes
@@ -26,25 +26,25 @@ enum NavItem: MNavItem, Codable, Equatable, Hashable, Identifiable {
 	
 	// MARK: - Navigation
 	
-	static let initial: NavItem = .rectangle
+	static let initial: AppDestination = .rectangle
 	
 	
 	// MARK: Sidebar
 	
-	static let sidebarSections: [NavItem] = [.rectangle, .circle]
+	static let sidebarSections: [AppDestination] = [.rectangle, .circle]
 	
 	
 	// MARK: Tabs
 	
 	/// TabConfiguration limits number of visible tabs based on device. Showing them in order of this array, required tabs will move forward to be visible. Additional tabs would be displayed in a list under the `more` tab. Should be avoided as this list can not be modified and has its own NavigationStack.
-	static let tabsAvailable: [NavItem] = [.rectangle, .circle, .triangle]
-	static let tabsRequired: [NavItem] = [.rectangle]
-	static let tabsDisabledByDefault: Set<NavItem> = [.triangle]
+	static let tabsAvailable: [AppDestination] = [.rectangle, .circle, .triangle]
+	static let tabsRequired: [AppDestination] = [.rectangle]
+	static let tabsDisabledByDefault: Set<AppDestination> = [.triangle]
 	
 	
 	// MARK: - Hierarchy
 	
-	var subItems: [NavItem] {
+	var subItems: [AppDestination] {
 		switch self {
 			case .rectangle: [
 				// Multiple Scenes in Tab are displayed as a list.

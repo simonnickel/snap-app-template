@@ -12,14 +12,14 @@ struct AppNavigationStack: View {
 	
 	@Environment(\.destinationFactory) var destinationFactory: NavigationDestinationFactory
 	
-	let root: NavItem
+	let root: AppDestination
 	let mode: MNavContainer.Mode
 	
 	var body: some View {
 		NavigationStack {
 			
 			AnyView(destinationFactory.destination(for: root, in: mode))
-				.navigationDestination(for: NavItem.self) { scene in
+				.navigationDestination(for: AppDestination.self) { scene in
 					AnyView(destinationFactory.destination(for: scene, in: mode))
 				}
 			

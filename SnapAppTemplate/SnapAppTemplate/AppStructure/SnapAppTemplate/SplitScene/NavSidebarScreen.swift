@@ -14,8 +14,8 @@ struct NavSidebarScreen: View {
 	@Environment(\.appState) private var appState
 	@Environment(\.theme) private var theme
 	
-	let sections: [NavItem]
-	@Binding var selection: NavItem?
+	let sections: [AppDestination]
+	@Binding var selection: AppDestination?
 	
 	let isCollapsed: Bool
 	
@@ -67,12 +67,12 @@ struct NavSidebarScreen: View {
 
 #Preview {
 	
-	@State var selection: NavItem? = .rectangle
+	@State var selection: AppDestination? = .rectangle
 	@State var visibility: NavigationSplitViewVisibility = .all
 	
 	return NavigationSplitView(columnVisibility: $visibility) {
 		
-		NavSidebarScreen(sections: NavItem.sidebarSections, selection: $selection, isCollapsed: true)
+		NavSidebarScreen(sections: AppDestination.sidebarSections, selection: $selection, isCollapsed: true)
 		
 	} detail: {
 		

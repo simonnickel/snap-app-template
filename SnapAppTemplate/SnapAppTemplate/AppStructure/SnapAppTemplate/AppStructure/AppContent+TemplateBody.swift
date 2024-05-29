@@ -12,7 +12,7 @@ extension AppContent {
 	
 	var templateBody: some View {
 		TemplateContent(splitScene: {
-			NavSplitScene(sections: NavItem.sidebarSections)
+			NavSplitScene(sections: AppDestination.sidebarSections)
 		}, tabScene: { settings in
 			NavTabScene(tabsSetting: settings.value(.navigationTabs))
 		}, settingsScene: {

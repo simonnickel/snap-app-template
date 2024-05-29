@@ -16,12 +16,12 @@ struct NavTabSceneList: View {
 	
 	/// Wrapping scene to intercept navigationDestination. Needed to manually keep track of selection state for row highlighting.
 	private struct WrappedScene: Hashable {
-		let scene: NavItem
+		let scene: AppDestination
 	}
 	
-	@State var tab: NavItem
+	@State var tab: AppDestination
 	
-	@State private var selected: NavItem?
+	@State private var selected: AppDestination?
 	
 	var body: some View {
 		

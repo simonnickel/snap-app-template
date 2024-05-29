@@ -29,7 +29,7 @@ enum SettingsNavItem: Codable {
 	var destinationPlain: any View {
 		switch self {
 				
-			case .tabs: ConfigureTabsScreen(defaultConfiguration: NavItem.tabConfigDefault)
+			case .tabs: ConfigureTabsScreen(defaultConfiguration: AppDestination.tabConfigDefault)
 				
 		}
 	}
