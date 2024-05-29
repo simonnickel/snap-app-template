@@ -18,7 +18,6 @@
 		5A1EEB1B2BCD4A1000422FD8 /* AppEnvironment+Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB062BCD4A1000422FD8 /* AppEnvironment+Template.swift */; };
 		5A1EEB1C2BCD4A1000422FD8 /* NavSidebarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB082BCD4A1000422FD8 /* NavSidebarScreen.swift */; };
 		5A1EEB1D2BCD4A1000422FD8 /* NavSplitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB092BCD4A1000422FD8 /* NavSplitScene.swift */; };
-		5A1EEB1E2BCD4A1000422FD8 /* ToolbarButtonSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0A2BCD4A1000422FD8 /* ToolbarButtonSettings.swift */; };
 		5A1EEB1F2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0C2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift */; };
 		5A1EEB202BCD4A1000422FD8 /* NavTabScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0D2BCD4A1000422FD8 /* NavTabScene.swift */; };
 		5A1EEB212BCD4A1000422FD8 /* NavTabSceneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0E2BCD4A1000422FD8 /* NavTabSceneList.swift */; };
@@ -57,7 +56,6 @@
 		5A1EEB062BCD4A1000422FD8 /* AppEnvironment+Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppEnvironment+Template.swift"; sourceTree = "<group>"; };
 		5A1EEB082BCD4A1000422FD8 /* NavSidebarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavSidebarScreen.swift; sourceTree = "<group>"; };
 		5A1EEB092BCD4A1000422FD8 /* NavSplitScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavSplitScene.swift; sourceTree = "<group>"; };
-		5A1EEB0A2BCD4A1000422FD8 /* ToolbarButtonSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarButtonSettings.swift; sourceTree = "<group>"; };
 		5A1EEB0C2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavItem+TabConfiguration.swift"; sourceTree = "<group>"; };
 		5A1EEB0D2BCD4A1000422FD8 /* NavTabScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTabScene.swift; sourceTree = "<group>"; };
 		5A1EEB0E2BCD4A1000422FD8 /* NavTabSceneList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTabSceneList.swift; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 			children = (
 				5A1EEB082BCD4A1000422FD8 /* NavSidebarScreen.swift */,
 				5A1EEB092BCD4A1000422FD8 /* NavSplitScene.swift */,
-				5A1EEB0A2BCD4A1000422FD8 /* ToolbarButtonSettings.swift */,
 			);
 			path = SplitScene;
 			sourceTree = "<group>";
@@ -339,7 +336,6 @@
 				5A1EEB452BCD4A4500422FD8 /* FontKeys+App.swift in Sources */,
 				5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */,
 				5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */,
-				5A1EEB1E2BCD4A1000422FD8 /* ToolbarButtonSettings.swift in Sources */,
 				5A1EEB352BCD4A2F00422FD8 /* ExampleScreen.swift in Sources */,
 				5A1EEB1C2BCD4A1000422FD8 /* NavSidebarScreen.swift in Sources */,
 				5A1EEB1D2BCD4A1000422FD8 /* NavSplitScene.swift in Sources */,
