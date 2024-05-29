@@ -41,7 +41,6 @@
 		5A1EEB492BCD4A4500422FD8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB3F2BCD4A4500422FD8 /* Theme.swift */; };
 		5A1EEB4A2BCD4A4500422FD8 /* ThemeColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEB402BCD4A4500422FD8 /* ThemeColors.xcassets */; };
 		5A1EEB4B2BCD4A4500422FD8 /* NumberKeys+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */; };
-		5A45670C2BF3BFE7001029CB /* AppContent+TemplateBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */; };
 		5A6410292BD6F4B10023F0F0 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */; };
 		5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */; };
 /* End PBXBuildFile section */
@@ -81,7 +80,6 @@
 		5A1EEB3F2BCD4A4500422FD8 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		5A1EEB402BCD4A4500422FD8 /* ThemeColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ThemeColors.xcassets; sourceTree = "<group>"; };
 		5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberKeys+App.swift"; sourceTree = "<group>"; };
-		5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppContent+TemplateBody.swift"; sourceTree = "<group>"; };
 		5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestinationFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -243,7 +241,6 @@
 		5A45670A2BF3BFCE001029CB /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
-				5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */,
 				5A1EEB062BCD4A1000422FD8 /* AppEnvironment+Template.swift */,
 			);
 			path = AppStructure;
@@ -338,7 +335,6 @@
 				5A1EEB342BCD4A2F00422FD8 /* SettingsScene.swift in Sources */,
 				5A1EEB262BCD4A1000422FD8 /* AppContent.swift in Sources */,
 				5A1EEB2D2BCD4A1E00422FD8 /* DataSource.swift in Sources */,
-				5A45670C2BF3BFE7001029CB /* AppContent+TemplateBody.swift in Sources */,
 				5A1EEB472BCD4A4500422FD8 /* SurfaceKeys+App.swift in Sources */,
 				5A1EEB452BCD4A4500422FD8 /* FontKeys+App.swift in Sources */,
 				5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */,
