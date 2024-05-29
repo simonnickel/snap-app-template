@@ -25,7 +25,7 @@ struct NavSidebarScreen: View {
 				Section {
 					
 					ForEach(section.subItems) { item in
-						NavItemRow(
+						NavRow(
 							value: item,
 							title: item.title,
 							icon: item.icon,
