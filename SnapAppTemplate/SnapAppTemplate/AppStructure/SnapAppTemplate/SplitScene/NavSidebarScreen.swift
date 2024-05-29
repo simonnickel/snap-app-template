@@ -76,9 +76,7 @@ struct NavSidebarScreen: View {
 		
 	} detail: {
 		
-		if let scene = selection {
-			AnyView(scene.destination(for: .split))
-		}
+		Text("Detail")
 		
 	}
 	.environment(\.theme, .baseApp)

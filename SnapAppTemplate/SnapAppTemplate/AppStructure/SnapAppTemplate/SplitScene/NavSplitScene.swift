@@ -34,7 +34,7 @@ struct NavSplitScene: View {
 			}, detail: {
 				
 				if let selected = selectedInSidebar {
-					AnyView(NavItem.navigationStack(root: selected, for: .split))
+					AppNavigationStack(root: selected, mode: .split)
 				} else {
 					ThemeEmptyDecorationView(text: "Select something in the sidebar.")
 				}

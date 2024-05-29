@@ -40,6 +40,7 @@ import SnapTemplateShared
 			}, set: { newValue in
 				self.appState = newValue
 			}))
+			.environment(\.destinationFactory, self)
 			.environment(\.dataSource, dataSource)
 		
 	}

@@ -32,3 +32,19 @@ extension EnvironmentValues {
 	}
 	
 }
+
+
+// MARK: - Navigation Destination
+
+private struct NavigationDestinationFactoryKey: EnvironmentKey {
+	static var defaultValue: NavigationDestinationFactory { AppDependencies(templateDependencies: .init()) }
+}
+
+extension EnvironmentValues {
+
+	var destinationFactory: NavigationDestinationFactory {
+		get { self[NavigationDestinationFactoryKey.self] }
+		set { self[NavigationDestinationFactoryKey.self] = newValue }
+	}
+	
+}

@@ -27,7 +27,7 @@ struct NavTabScene: View {
 			MNavTabScene(tabs: tabs, selected: $selectedTab, tabScreen: { tabItem in
 				if let item = tabItem as? NavItem {
 					
-					AnyView(NavItem.navigationStack(root: item, for: .tab))
+					AppNavigationStack(root: item, mode: .tab)
 
 				}
 			})
