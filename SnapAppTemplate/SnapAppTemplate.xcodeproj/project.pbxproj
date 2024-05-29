@@ -22,7 +22,6 @@
 		5A1EEB1F2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0C2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift */; };
 		5A1EEB202BCD4A1000422FD8 /* NavTabScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0D2BCD4A1000422FD8 /* NavTabScene.swift */; };
 		5A1EEB212BCD4A1000422FD8 /* NavTabSceneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB0E2BCD4A1000422FD8 /* NavTabSceneList.swift */; };
-		5A1EEB242BCD4A1000422FD8 /* AppDestination+Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB122BCD4A1000422FD8 /* AppDestination+Template.swift */; };
 		5A1EEB252BCD4A1000422FD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEB132BCD4A1000422FD8 /* README.md */; };
 		5A1EEB262BCD4A1000422FD8 /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB152BCD4A1000422FD8 /* AppContent.swift */; };
 		5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */; };
@@ -64,7 +63,6 @@
 		5A1EEB0C2BCD4A1000422FD8 /* NavItem+TabConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavItem+TabConfiguration.swift"; sourceTree = "<group>"; };
 		5A1EEB0D2BCD4A1000422FD8 /* NavTabScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTabScene.swift; sourceTree = "<group>"; };
 		5A1EEB0E2BCD4A1000422FD8 /* NavTabSceneList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTabSceneList.swift; sourceTree = "<group>"; };
-		5A1EEB122BCD4A1000422FD8 /* AppDestination+Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDestination+Template.swift"; sourceTree = "<group>"; };
 		5A1EEB132BCD4A1000422FD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A1EEB152BCD4A1000422FD8 /* AppContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
 		5A1EEB162BCD4A1000422FD8 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
@@ -249,7 +247,6 @@
 			children = (
 				5AA7EC1C2C04BC4A00F83444 /* AppNavigationStack.swift */,
 				5A45670B2BF3BFE7001029CB /* AppContent+TemplateBody.swift */,
-				5A1EEB122BCD4A1000422FD8 /* AppDestination+Template.swift */,
 				5A1EEB062BCD4A1000422FD8 /* TemplateEnvironment.swift */,
 			);
 			path = AppStructure;
@@ -346,7 +343,6 @@
 				5A1EEB2D2BCD4A1E00422FD8 /* DataSource.swift in Sources */,
 				5A45670C2BF3BFE7001029CB /* AppContent+TemplateBody.swift in Sources */,
 				5A1EEB472BCD4A4500422FD8 /* SurfaceKeys+App.swift in Sources */,
-				5A1EEB242BCD4A1000422FD8 /* AppDestination+Template.swift in Sources */,
 				5A1EEB452BCD4A4500422FD8 /* FontKeys+App.swift in Sources */,
 				5A1EEB272BCD4A1000422FD8 /* AppDependencies.swift in Sources */,
 				5AA7EC1D2C04BC4A00F83444 /* AppNavigationStack.swift in Sources */,
