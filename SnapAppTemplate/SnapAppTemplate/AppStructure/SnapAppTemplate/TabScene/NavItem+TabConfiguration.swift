@@ -39,8 +39,8 @@ extension AppDestination {
 		return configuration.visibleTabs
 		// Map to AppDestination and filter configured Tabs that are no longer available (already done in TabConfiguration.updated(availableTabs:) though).
 			.compactMap({ tab in
-				AppDestination.tabsAvailable.first { navItem in
-					tab.id == navItem.id
+				AppDestination.tabsAvailable.first { destination in
+					tab.id == destination.id
 				}
 			})
 		
