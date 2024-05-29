@@ -1,5 +1,5 @@
 //
-//  App+Environment.swift
+//  AppEnvironment.swift
 //  SnapAppTemplate
 //
 //  Created by Simon Nickel on 22.04.24.
