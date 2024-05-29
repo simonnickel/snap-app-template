@@ -7,11 +7,10 @@
 
 import SwiftUI
 import SnapTheme
-import SnapMatchingNavigation
 import SnapTemplateShared
 
 /// Definition of main navigation hierarchy for Tab and Sidebar layouts.
-enum AppDestination: TemplateDestination, Codable, Equatable, Hashable, Identifiable {
+enum AppDestination: TemplateDestination, Codable, Equatable, Identifiable {
 	
 	
 	// MARK: - Scenes

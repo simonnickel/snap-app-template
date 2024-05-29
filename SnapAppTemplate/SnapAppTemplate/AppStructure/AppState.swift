@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SnapTheme
 	
 /// Definition of the main state of the app.
 struct AppState {
