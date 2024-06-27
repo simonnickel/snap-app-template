@@ -67,8 +67,8 @@ struct NavSidebarScreen: View {
 
 #Preview {
 	
-	@State var selection: AppDestination? = .rectangle
-	@State var visibility: NavigationSplitViewVisibility = .all
+	@Previewable @State var selection: AppDestination? = .rectangle
+	@Previewable @State var visibility: NavigationSplitViewVisibility = .all
 	
 	return NavigationSplitView(columnVisibility: $visibility) {
 		
