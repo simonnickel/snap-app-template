@@ -75,8 +75,9 @@ enum AppDestination: TemplateDestination, Codable, Equatable, Identifiable {
 	
 	var icon: Theme.IconKey? {
 		switch self {
-			case .rectangle: .navGroupRectangle
-			case .circle: .navGroupCircle
+			case .rectangleA: .navGroupRectangle
+			case .rectangleB: .navGroupRectangle
+			case .circleA: .navGroupCircle
 			case .triangle: .navGroupTriangle
 				
 			default: nil
