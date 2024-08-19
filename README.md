@@ -1,4 +1,4 @@
-> This repository is part of the [SNAP](https://github.com/simonnickel/snap-abstract) suite.
+> This repository is part of the [SNAP](https://github.com/simonnickel/snap) suite.
 
 
 // TODO: Fix Sidebar background
@@ -6,7 +6,7 @@
 
 # SnapAppTemplate
 
-An Xcode project with a base setup of [SNAP](https://github.com/simonnickel/snap-abstract). The app comes with structure, navigation and infrastructure prepared, to quickly setup a new app using the SNAP packages.
+An Xcode project with a base setup of [SNAP](https://github.com/simonnickel/snap). The app comes with structure, navigation and infrastructure prepared, to quickly setup a new app using the SNAP packages.
 
 Also have a look at [snap-template-shared](https://github.com/simonnickel/snap-template-shared) for shared features and implementations.
 
