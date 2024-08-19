@@ -38,7 +38,6 @@
 		5A1EEB472BCD4A4500422FD8 /* SurfaceKeys+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB3D2BCD4A4500422FD8 /* SurfaceKeys+App.swift */; };
 		5A1EEB482BCD4A4500422FD8 /* TextSurfaceKeys+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB3E2BCD4A4500422FD8 /* TextSurfaceKeys+App.swift */; };
 		5A1EEB492BCD4A4500422FD8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB3F2BCD4A4500422FD8 /* Theme.swift */; };
-		5A1EEB4A2BCD4A4500422FD8 /* ThemeColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EEB402BCD4A4500422FD8 /* ThemeColors.xcassets */; };
 		5A1EEB4B2BCD4A4500422FD8 /* NumberKeys+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */; };
 		5A6410292BD6F4B10023F0F0 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */; };
 		5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */; };
@@ -75,7 +74,6 @@
 		5A1EEB3D2BCD4A4500422FD8 /* SurfaceKeys+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurfaceKeys+App.swift"; sourceTree = "<group>"; };
 		5A1EEB3E2BCD4A4500422FD8 /* TextSurfaceKeys+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextSurfaceKeys+App.swift"; sourceTree = "<group>"; };
 		5A1EEB3F2BCD4A4500422FD8 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		5A1EEB402BCD4A4500422FD8 /* ThemeColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ThemeColors.xcassets; sourceTree = "<group>"; };
 		5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberKeys+App.swift"; sourceTree = "<group>"; };
 		5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestinationFactory.swift; sourceTree = "<group>"; };
@@ -227,7 +225,6 @@
 				5A1EEB3D2BCD4A4500422FD8 /* SurfaceKeys+App.swift */,
 				5A1EEB3E2BCD4A4500422FD8 /* TextSurfaceKeys+App.swift */,
 				5A1EEB3F2BCD4A4500422FD8 /* Theme.swift */,
-				5A1EEB402BCD4A4500422FD8 /* ThemeColors.xcassets */,
 				5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */,
 			);
 			path = Theme;
@@ -314,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A1EEB252BCD4A1000422FD8 /* README.md in Resources */,
-				5A1EEB4A2BCD4A4500422FD8 /* ThemeColors.xcassets in Resources */,
 				5A1EEAD22BCD471600422FD8 /* Preview Assets.xcassets in Resources */,
 				5A1EEACE2BCD471600422FD8 /* Assets.xcassets in Resources */,
 			);
