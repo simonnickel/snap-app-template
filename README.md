@@ -54,3 +54,15 @@ Added `ITSAppUsesNonExemptEncryption` key with value `NO`, see: [Complying with 
 Enabled Strict Concurrency checking in build settings to prepare for changes Swift 6:
 
 `SWIFT_STRICT_CONCURRENCY = complete;`
+
+
+## // TODO:  
+
+- Documentation
+- Settings Screen
+    - Settings Header
+    - Contact
+- Generic Usage Statistics
+- SwiftData with sync
+- Widgets using SwiftData (display, edit)
+- Release Notes
