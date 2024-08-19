@@ -45,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		1FF20B6D2C73DED600660878 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5A178AF52BEB889E00AFDA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A178AF52BEB889E00AFDA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A1EEAC62BCD471300422FD8 /* SnapAppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapAppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1EEAC92BCD471400422FD8 /* SnapAppTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapAppTemplateApp.swift; sourceTree = "<group>"; };
 		5A1EEACD2BCD471600422FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +95,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FE9A6C92C73E1C200690DF9 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A1EEACD2BCD471600422FD8 /* Assets.xcassets */,
+				5A178AF52BEB889E00AFDA69 /* Info.plist */,
+				5A1EEAD02BCD471600422FD8 /* Preview Content */,
+				5A1EEACF2BCD471600422FD8 /* SnapAppTemplate.entitlements */,
+			);
+			path = "Project Files";
+			sourceTree = "<group>";
+		};
 		5A1EEABD2BCD471300422FD8 = {
 			isa = PBXGroup;
 			children = (
@@ -115,16 +126,13 @@
 		5A1EEAC82BCD471300422FD8 /* SnapAppTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				5A178AF52BEB889E00AFDA69 /* Info.plist */,
 				5A1EEAC92BCD471400422FD8 /* SnapAppTemplateApp.swift */,
 				5A1EEB1A2BCD4A1000422FD8 /* AppStructure */,
 				5A1EEB372BCD4A3900422FD8 /* Services */,
 				5A1EEB2C2BCD4A1E00422FD8 /* Data */,
 				5A1EEB422BCD4A4500422FD8 /* Theme */,
 				5A1EEB322BCD4A2F00422FD8 /* Scenes */,
-				5A1EEACD2BCD471600422FD8 /* Assets.xcassets */,
-				5A1EEACF2BCD471600422FD8 /* SnapAppTemplate.entitlements */,
-				5A1EEAD02BCD471600422FD8 /* Preview Content */,
+				1FE9A6C92C73E1C200690DF9 /* Project Files */,
 			);
 			path = SnapAppTemplate;
 			sourceTree = "<group>";
@@ -478,16 +486,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SnapAppTemplate/SnapAppTemplate.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "SnapAppTemplate/Project Files/SnapAppTemplate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SnapAppTemplate/Preview Content\"";
-				DEVELOPMENT_TEAM = QPW6B8MS22;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapAppTemplate/Project Files/Preview Content\"";
+				DEVELOPMENT_TEAM = F64S9U8SB2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SnapAppTemplate/Info.plist;
+				INFOPLIST_FILE = "SnapAppTemplate/Project Files/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -519,16 +527,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SnapAppTemplate/SnapAppTemplate.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "SnapAppTemplate/Project Files/SnapAppTemplate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SnapAppTemplate/Preview Content\"";
-				DEVELOPMENT_TEAM = QPW6B8MS22;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapAppTemplate/Project Files/Preview Content\"";
+				DEVELOPMENT_TEAM = F64S9U8SB2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SnapAppTemplate/Info.plist;
+				INFOPLIST_FILE = "SnapAppTemplate/Project Files/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
