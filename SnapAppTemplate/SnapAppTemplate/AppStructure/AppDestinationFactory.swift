@@ -1,8 +1,6 @@
 //
-//  AppDestinationFactory.swift
-//  SnapAppTemplate
-//
-//  Created by Simon Nickel on 27.05.24.
+//  SNAP - https://github.com/simonnickel/snap
+//  Created by Simon Nickel
 //
 
 import SwiftUI

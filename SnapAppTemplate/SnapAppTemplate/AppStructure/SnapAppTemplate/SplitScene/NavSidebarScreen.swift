@@ -1,8 +1,6 @@
 //
-//  NavSidebarScreen.swift
-//  SnapAppTemplate
-//
-//  Created by Simon Nickel on 14.02.23.
+//  SNAP - https://github.com/simonnickel/snap
+//  Created by Simon Nickel
 //
 
 import SwiftUI
