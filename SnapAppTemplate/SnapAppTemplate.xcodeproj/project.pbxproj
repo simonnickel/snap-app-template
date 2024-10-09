@@ -591,7 +591,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/simonnickel/snap-core";
 			requirement = {
-				branch = "main-xc16";
+				branch = main;
 				kind = branch;
 			};
 		};
@@ -599,7 +599,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/simonnickel/snap-theme";
 			requirement = {
-				branch = "main-xc16";
+				branch = main;
 				kind = branch;
 			};
 		};
@@ -607,7 +607,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/simonnickel/snap-template-shared.git";
 			requirement = {
-				branch = "main-xc16";
+				branch = main;
 				kind = branch;
 			};
 		};
@@ -615,7 +615,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/simonnickel/snap-matching-navigation";
 			requirement = {
-				branch = "main-xc16";
+				branch = main;
 				kind = branch;
 			};
 		};
@@ -623,7 +623,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/simonnickel/snap-settings-service";
 			requirement = {
-				branch = "main-xc16";
+				branch = main;
 				kind = branch;
 			};
 		};

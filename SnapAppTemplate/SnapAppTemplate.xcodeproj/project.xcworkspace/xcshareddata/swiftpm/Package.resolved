@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simonnickel/snap-core",
       "state" : {
-        "branch" : "main-xc16",
-        "revision" : "4c8edf1dad56cc66a38644a9f31d8310ba8ddecc"
+        "branch" : "main",
+        "revision" : "87337c88da2fda8ff9e8b57fe7b84acaa3555a98"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simonnickel/snap-matching-navigation",
       "state" : {
-        "branch" : "main-xc16",
-        "revision" : "09c6c24a0f44323dcbba49ab5cea92e845f829c2"
+        "branch" : "main",
+        "revision" : "84cecc1b825d8d4a058fe9eb3e40bf6ebee63ce5"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simonnickel/snap-settings-service",
       "state" : {
-        "branch" : "main-xc16",
-        "revision" : "be73082343cdafc43d48ed97561361e570482e77"
+        "branch" : "main",
+        "revision" : "e2234e0f6172aa9a0317045ab1f1c0df3d6ee873"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simonnickel/snap-template-shared.git",
       "state" : {
-        "branch" : "main-xc16",
-        "revision" : "ba23b1ff51e048c132bdfd1fdb561dc0c14e912f"
+        "branch" : "main",
+        "revision" : "549da4e8abc12ac5548e16e91b4213a6b467a5e3"
       }
     },
     {
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simonnickel/snap-theme",
       "state" : {
-        "branch" : "main-xc16",
-        "revision" : "020194c2dcb8c9411425422820fc412d50e7ce47"
+        "branch" : "main",
+        "revision" : "ba7ad58f1ff3a88a42fe13e3a112d6d8afcf13fa"
       }
     }
   ],
