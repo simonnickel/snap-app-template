@@ -1,6 +1,9 @@
 > This repository is part of the [SNAP](https://github.com/simonnickel/snap) suite.
 
 
+// TODO: Fix Sidebar background
+
+
 # SnapAppTemplate
 
 An Xcode project with a base setup of [SNAP](https://github.com/simonnickel/snap). The app comes with structure, navigation and infrastructure prepared, to quickly setup a new app using the SNAP packages.
@@ -48,6 +51,17 @@ Added `ITSAppUsesNonExemptEncryption` key with value `NO`, see: [Complying with 
 
 ### Build Settings
 
-Enabled Strict Concurrency checking in build settings to prepare for changes Swift 6:
+ - Set `Swift Language Version` to 6
+ - Enabled Strict Concurrency checking: `SWIFT_STRICT_CONCURRENCY = complete;`
 
-`SWIFT_STRICT_CONCURRENCY = complete;`
+
+## // TODO:  
+
+- Documentation
+- Settings Screen
+    - Settings Header
+    - Contact
+- Generic Usage Statistics
+- SwiftData with sync
+- Widgets using SwiftData (display, edit)
+- Release Notes
