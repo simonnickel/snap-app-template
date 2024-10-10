@@ -41,6 +41,7 @@
 		5A1EEB4B2BCD4A4500422FD8 /* NumberKeys+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */; };
 		5A6410292BD6F4B10023F0F0 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6410282BD6F4B10023F0F0 /* AppEnvironment.swift */; };
 		5AA7EC1B2C04B94A00F83444 /* AppDestinationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7EC1A2C04B94A00F83444 /* AppDestinationFactory.swift */; };
+		5AFC3BA42CB82CEC00E837DB /* SnapNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 5AFC3BA32CB82CEC00E837DB /* SnapNavigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFC3BA42CB82CEC00E837DB /* SnapNavigation in Frameworks */,
 				5A1EEAFC2BCD494400422FD8 /* SnapTheme in Frameworks */,
 				5A1EEAF92BCD493800422FD8 /* SnapCore in Frameworks */,
 				5A1EEAFF2BCD495400422FD8 /* SnapTemplateShared in Frameworks */,
@@ -268,6 +270,7 @@
 				5A1EEAFE2BCD495400422FD8 /* SnapTemplateShared */,
 				5A1EEB012BCD496300422FD8 /* SnapMatchingNavigation */,
 				5A1EEB042BCD497400422FD8 /* SnapSettingsService */,
+				5AFC3BA32CB82CEC00E837DB /* SnapNavigation */,
 			);
 			productName = SnapAppTemplate;
 			productReference = 5A1EEAC62BCD471300422FD8 /* SnapAppTemplate.app */;
@@ -303,6 +306,7 @@
 				5A1EEAFD2BCD495400422FD8 /* XCRemoteSwiftPackageReference "snap-template-shared" */,
 				5A1EEB002BCD496300422FD8 /* XCRemoteSwiftPackageReference "snap-matching-navigation" */,
 				5A1EEB032BCD497400422FD8 /* XCRemoteSwiftPackageReference "snap-settings-service" */,
+				5AFC3BA22CB82CEC00E837DB /* XCRemoteSwiftPackageReference "snap-navigation" */,
 			);
 			productRefGroup = 5A1EEAC72BCD471300422FD8 /* Products */;
 			projectDirPath = "";
@@ -627,6 +631,14 @@
 				kind = branch;
 			};
 		};
+		5AFC3BA22CB82CEC00E837DB /* XCRemoteSwiftPackageReference "snap-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simonnickel/snap-navigation";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -654,6 +666,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5A1EEB032BCD497400422FD8 /* XCRemoteSwiftPackageReference "snap-settings-service" */;
 			productName = SnapSettingsService;
+		};
+		5AFC3BA32CB82CEC00E837DB /* SnapNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AFC3BA22CB82CEC00E837DB /* XCRemoteSwiftPackageReference "snap-navigation" */;
+			productName = SnapNavigation;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
