@@ -27,9 +27,8 @@ enum SettingsNavItem: Codable {
 	
 	var destinationPlain: any View {
 		switch self {
-				
-			case .tabs: ConfigureTabsScreen(defaultConfiguration: AppDestination.tabConfigDefault)
-				
+				// TODO: TabConfiguration not yet supported by snap-navigation
+			case .tabs: EmptyView()
 		}
 	}
 	

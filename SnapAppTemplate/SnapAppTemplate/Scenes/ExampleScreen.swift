@@ -11,7 +11,7 @@ struct ExampleScreen: View {
 	@Environment(\.theme) private var theme
 	@Environment(\.dataSource) private var dataSource
 	
-	let item: AppDestination
+	let screen: AppScreen
 	
 	var body: some View {
 		
@@ -41,7 +41,7 @@ struct ExampleScreen: View {
 	
 	NavigationStack {
 		
-		ExampleScreen(item: .rectangleA)
+		ExampleScreen(screen: .rectangleA)
 		
 	}
 	
