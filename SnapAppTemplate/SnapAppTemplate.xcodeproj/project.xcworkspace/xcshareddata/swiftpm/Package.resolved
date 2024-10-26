@@ -1,5 +1,5 @@
 {
-  "originHash" : "909093ede8fd99ec800d07f9f7681eb9bb6ec7afb1ed414aba7b951495f27f40",
+  "originHash" : "a04283a6b5096f35a8df17b9f397e5f7db9c912debb3bf61ea810d4df94d8fb0",
   "pins" : [
     {
       "identity" : "snap-core",
@@ -7,13 +7,22 @@
       "location" : "https://github.com/simonnickel/snap-core",
       "state" : {
         "branch" : "main",
-        "revision" : "87337c88da2fda8ff9e8b57fe7b84acaa3555a98"
+        "revision" : "f1dc2e740961f5607c0271bc13ce6d56f00eff20"
+      }
+    },
+    {
+      "identity" : "snap-foundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/simonnickel/snap-foundation.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "cb8215eddb71ab7af8d60c333e73ed720fdd92d7"
       }
     },
     {
       "identity" : "snap-matching-navigation",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/simonnickel/snap-matching-navigation",
+      "location" : "https://github.com/simonnickel/snap-matching-navigation.git",
       "state" : {
         "branch" : "main",
         "revision" : "84cecc1b825d8d4a058fe9eb3e40bf6ebee63ce5"
@@ -25,7 +34,7 @@
       "location" : "https://github.com/simonnickel/snap-navigation",
       "state" : {
         "branch" : "main",
-        "revision" : "5784eae72e05d5e47b2d2b6d1646d261f70c84ea"
+        "revision" : "e714d8f38a4c704361eb362d0142a490f410ae53"
       }
     },
     {
@@ -34,16 +43,7 @@
       "location" : "https://github.com/simonnickel/snap-settings-service",
       "state" : {
         "branch" : "main",
-        "revision" : "e2234e0f6172aa9a0317045ab1f1c0df3d6ee873"
-      }
-    },
-    {
-      "identity" : "snap-template-shared",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/simonnickel/snap-template-shared.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "549da4e8abc12ac5548e16e91b4213a6b467a5e3"
+        "revision" : "a35bba11b85370f54c2a536532c40c3af65d1d43"
       }
     },
     {
