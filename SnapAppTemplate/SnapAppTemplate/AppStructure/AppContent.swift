@@ -6,6 +6,7 @@
 import SwiftUI
 import SnapTheme
 import SnapTemplateShared
+import SnapNavigation
 
 /// A container to apply app specific customisation to the content.
 struct AppContent: View {
@@ -14,7 +15,7 @@ struct AppContent: View {
 	//@Environment(\.appState) private var appState
 	//@Environment(\.appStateBinding) private var appStateBinding
 	//@Environment(\.templateStateBinding) private var templateStateBinding
-	
+		
 	var body: some View {
 	
 		templateBody
@@ -25,13 +26,7 @@ struct AppContent: View {
 	
 	@MainActor
 	private var templateBody: some View {
-		TemplateContent(splitScene: {
-			NavSplitScene(sections: AppDestination.sidebarSections)
-		}, tabScene: { settings in
-			NavTabScene(tabsSetting: settings.value(.navigationTabs))
-		}, settingsScene: {
-			SettingsScene()
-		})
+		TemplateContent(provider: AppNavigationProvider(), settingsScreen: .settings)
 	}
 	
 }

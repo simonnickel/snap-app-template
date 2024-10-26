@@ -1,5 +1,5 @@
 {
-  "originHash" : "8fe065b63b735aa6c97a189b242ec50a2c5b25a1c175b956566e5ac310aedd19",
+  "originHash" : "68ccd16811460c49150c4c21ac716b632d653da04cfe9b67e075a73ef2fa9cf8",
   "pins" : [
     {
       "identity" : "snap-core",
@@ -7,16 +7,25 @@
       "location" : "https://github.com/simonnickel/snap-core",
       "state" : {
         "branch" : "main",
-        "revision" : "87337c88da2fda8ff9e8b57fe7b84acaa3555a98"
+        "revision" : "f1dc2e740961f5607c0271bc13ce6d56f00eff20"
       }
     },
     {
-      "identity" : "snap-matching-navigation",
+      "identity" : "snap-foundation",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/simonnickel/snap-matching-navigation",
+      "location" : "https://github.com/simonnickel/snap-foundation.git",
       "state" : {
         "branch" : "main",
-        "revision" : "84cecc1b825d8d4a058fe9eb3e40bf6ebee63ce5"
+        "revision" : "cb8215eddb71ab7af8d60c333e73ed720fdd92d7"
+      }
+    },
+    {
+      "identity" : "snap-navigation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/simonnickel/snap-navigation",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5dd4a51b43966b5c55dade678dd9b4d8445e8261"
       }
     },
     {
@@ -25,7 +34,7 @@
       "location" : "https://github.com/simonnickel/snap-settings-service",
       "state" : {
         "branch" : "main",
-        "revision" : "e2234e0f6172aa9a0317045ab1f1c0df3d6ee873"
+        "revision" : "a35bba11b85370f54c2a536532c40c3af65d1d43"
       }
     },
     {
@@ -34,7 +43,7 @@
       "location" : "https://github.com/simonnickel/snap-template-shared.git",
       "state" : {
         "branch" : "main",
-        "revision" : "549da4e8abc12ac5548e16e91b4213a6b467a5e3"
+        "revision" : "82bda63fbbf7a2c1c937feefcf08cad28a6f8694"
       }
     },
     {
@@ -43,7 +52,7 @@
       "location" : "https://github.com/simonnickel/snap-theme",
       "state" : {
         "branch" : "main",
-        "revision" : "ba7ad58f1ff3a88a42fe13e3a112d6d8afcf13fa"
+        "revision" : "88f40defbb3a197f6b200e7f82e44c4770c5ff2f"
       }
     }
   ],

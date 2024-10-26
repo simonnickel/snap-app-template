@@ -41,7 +41,7 @@ struct SnapAppTemplateApp: App {
 
 #Preview {
 	
-	let template = TemplateDependencies(templateState: .init(showSettings: false),
+	let template = TemplateDependencies(templateState: .init(),
 		theme: .baseApp.replacingValues(
 			colors: [
 				.accentColorBase: .color(.purple)
