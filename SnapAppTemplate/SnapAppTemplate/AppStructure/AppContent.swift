@@ -15,7 +15,7 @@ struct AppContent: View {
 	//@Environment(\.appState) private var appState
 	//@Environment(\.appStateBinding) private var appStateBinding
 	//@Environment(\.templateStateBinding) private var templateStateBinding
-	
+		
 	var body: some View {
 	
 		templateBody
@@ -26,19 +26,7 @@ struct AppContent: View {
 	
 	@MainActor
 	private var templateBody: some View {
-		SnapNavigationView(
-			provider: AppNavigationProvider()
-		)
-#if !os(macOS) // macOS settings are available in the application menu.
-		.tabViewSidebarBottomBar {
-			HStack {
-				// TODO: Use Navigator to show settings.
-				ToolbarButtonSettings()
-					.buttonStyle(.themeSidebarBottom)
-				Spacer()
-			}
-		}
-#endif
+		TemplateContent(provider: AppNavigationProvider(), settingsScreen: .settings)
 	}
 	
 }

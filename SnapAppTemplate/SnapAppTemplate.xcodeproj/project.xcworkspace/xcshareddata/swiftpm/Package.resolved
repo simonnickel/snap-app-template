@@ -1,5 +1,5 @@
 {
-  "originHash" : "a04283a6b5096f35a8df17b9f397e5f7db9c912debb3bf61ea810d4df94d8fb0",
+  "originHash" : "57ddcdf49a78f9bf429f87d89636d87675c0070ed522cdbebc73f943bb07bcd6",
   "pins" : [
     {
       "identity" : "snap-core",
@@ -20,21 +20,12 @@
       }
     },
     {
-      "identity" : "snap-matching-navigation",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/simonnickel/snap-matching-navigation.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "84cecc1b825d8d4a058fe9eb3e40bf6ebee63ce5"
-      }
-    },
-    {
       "identity" : "snap-navigation",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simonnickel/snap-navigation",
       "state" : {
         "branch" : "main",
-        "revision" : "e714d8f38a4c704361eb362d0142a490f410ae53"
+        "revision" : "5dd4a51b43966b5c55dade678dd9b4d8445e8261"
       }
     },
     {

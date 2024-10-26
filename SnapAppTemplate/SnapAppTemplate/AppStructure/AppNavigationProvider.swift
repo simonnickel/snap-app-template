@@ -20,6 +20,8 @@ struct AppNavigationProvider: SnapNavigationProvider {
 			case .triangle, .rectangle, .circle: nil
 			case .rectangleA, .rectangleB: .rectangle
 			case .circleA: .circle
+				
+			case .settings: nil
 		}
 	}
 	

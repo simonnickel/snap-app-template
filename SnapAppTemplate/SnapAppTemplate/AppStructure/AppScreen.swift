@@ -16,6 +16,8 @@ enum AppScreen: SnapNavigationScreen {
 	case circleA
 	
 	case triangle
+	
+	case settings
 
 	var definition: SnapNavigation.ScreenDefinition<Self> {
 		switch self {
@@ -27,6 +29,8 @@ enum AppScreen: SnapNavigationScreen {
 			case .circleA: .init(title: "Circle A", icon: Theme.IconKey.navGroupCircle)
 				
 			case .triangle: .init(title: "Triangle", icon: Theme.IconKey.navGroupTriangle)
+			
+			case .settings: .init(title: "Settings", icon: Theme.IconKey.settings) { _ in SettingsScene() }
 		}
 	}
 	
@@ -41,7 +45,7 @@ enum AppScreen: SnapNavigationScreen {
 	
 	@MainActor
 	var destination: any View {
-		ExampleScreen(screen: self)
+		definition.destination?(self) ?? ExampleScreen(screen: self)
 	}
 	
 }
