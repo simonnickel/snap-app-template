@@ -7,6 +7,7 @@ import SwiftUI
 import SnapTheme
 import SnapTemplateShared
 import SnapNavigation
+import SnapDependencies
 
 /// A container to apply app specific customisation to the content.
 struct AppContent: View {
@@ -26,7 +27,7 @@ struct AppContent: View {
 	
 	@MainActor
 	private var templateBody: some View {
-		TemplateContent(provider: AppNavigationProvider(), settingsScreen: .settings)
+		TemplateContent<AppNavigationProvider>(settingsScreen: AppScreen.settings)
 	}
 	
 }

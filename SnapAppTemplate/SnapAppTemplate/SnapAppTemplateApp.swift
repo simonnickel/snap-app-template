@@ -9,28 +9,14 @@ import SnapTemplateShared
 @main
 struct SnapAppTemplateApp: App {
 	
-	private let dependenciesTemplate: TemplateDependencies
-	private let dependencies: AppDependencies
-	
-	init() {
-		
-		self.dependenciesTemplate = TemplateDependencies(theme: .baseApp)
-		self.dependencies = AppDependencies(templateDependencies: dependenciesTemplate)
-		
-	}
-	
     var body: some Scene {
 		WindowGroup {
-			DependencyWrapper(app: dependencies, template: dependenciesTemplate) {
-				AppContent()
-			}
+			AppContent()
 		}
 		
 #if os(macOS)
 		Settings {
-			DependencyWrapper(app: dependencies, template: dependenciesTemplate) {
-				SettingsScene()
-			}
+			SettingsScene()
 		}
 #endif
     }
@@ -41,20 +27,15 @@ struct SnapAppTemplateApp: App {
 
 #Preview {
 	
-	let template = TemplateDependencies(templateState: .init(),
-		theme: .baseApp.replacingValues(
-			colors: [
-				.accentColorBase: .color(.purple)
-			]
-		)
-	)
-	let appState = AppState()
+	// TODO: Theme in Dependencies with .override
+//	let template = TemplateDependencies(templateState: .init(),
+//		theme: .baseApp.replacingValues(
+//			colors: [
+//				.accentColorBase: .color(.purple)
+//			]
+//		)
+//	)
 	
-	return DependencyWrapper(
-		app: AppDependencies(templateDependencies: template, appState: appState),
-		template: template
-	) {
-		AppContent()
-	}
+	return AppContent()
 	
 }

@@ -6,14 +6,15 @@
 import SwiftUI
 import SnapTheme
 import SnapTemplateShared
+import SnapDependencies
+import SnapSettingsService
 
 // TODO Localization
 
 struct SettingsScene: View {
 	
-	@Environment(\.appState) private var appState
 	@Environment(\.theme) private var theme
-	@Environment(\.serviceSettings) private var settings
+	@Dependency private var settings: SettingsService
 	
 	private let navSelectionState = ListNavState<SettingsNavItem>()
 	

@@ -5,11 +5,12 @@
 
 import SwiftUI
 import SnapTheme
+import SnapDependencies
 
 struct ExampleScreen: View {
 	
 	@Environment(\.theme) private var theme
-	@Environment(\.dataSource) private var dataSource
+	@Dependency private var dataSource: DataSource
 	
 	let screen: AppScreen
 	
