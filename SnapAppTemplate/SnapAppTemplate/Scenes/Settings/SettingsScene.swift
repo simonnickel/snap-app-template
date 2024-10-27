@@ -13,7 +13,7 @@ import SnapSettingsService
 
 struct SettingsScene: View {
 	
-	@Environment(\.theme) private var theme
+	@Dependency private var templateState: TemplateState
 	@Dependency private var settings: SettingsService
 	
 	private let navSelectionState = ListNavState<SettingsNavItem>()
@@ -68,6 +68,8 @@ struct SettingsScene: View {
 			}
 			
 		}
+		// TODO: Should come from TemplateContent, like Theme. Not sure why it does not work.
+		.preferredColorScheme(templateState.displayMode?.colorScheme)
 		
 	}
 	
