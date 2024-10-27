@@ -27,7 +27,7 @@ struct AppContent: View {
 	
 	@MainActor
 	private var templateBody: some View {
-		TemplateContent<AppNavigationProvider>(settingsScreen: AppScreen.settings)
+		TemplateContent<AppNavigationProvider>(settingsDestination: AppDestination.settingsTemplate(.screen))
 	}
 	
 }

@@ -30,7 +30,7 @@
 		5A3BFC322CCD1CBB001626A1 /* Dependencies+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3BFC312CCD1CBA001626A1 /* Dependencies+Registration.swift */; };
 		5AB0C8A62CB8675800E4BE54 /* AppNavigationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB0C8A52CB8674E00E4BE54 /* AppNavigationProvider.swift */; };
 		5AFC3BA42CB82CEC00E837DB /* SnapNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 5AFC3BA32CB82CEC00E837DB /* SnapNavigation */; };
-		5AFC3BA62CB82D0900E837DB /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC3BA52CB82D0600E837DB /* AppScreen.swift */; };
+		5AFC3BA62CB82D0900E837DB /* AppDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC3BA52CB82D0600E837DB /* AppDestination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,7 +56,7 @@
 		5A3BFC0D2CCD1ABA001626A1 /* snap-template-shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "snap-template-shared"; path = "/Users/simonnickel/Archive/development/github/swift-packages/snap-template-shared"; sourceTree = "<absolute>"; };
 		5A3BFC312CCD1CBA001626A1 /* Dependencies+Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dependencies+Registration.swift"; sourceTree = "<group>"; };
 		5AB0C8A52CB8674E00E4BE54 /* AppNavigationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationProvider.swift; sourceTree = "<group>"; };
-		5AFC3BA52CB82D0600E837DB /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		5AFC3BA52CB82D0600E837DB /* AppDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				5AB0C8A52CB8674E00E4BE54 /* AppNavigationProvider.swift */,
-				5AFC3BA52CB82D0600E837DB /* AppScreen.swift */,
+				5AFC3BA52CB82D0600E837DB /* AppDestination.swift */,
 				5A1EEB152BCD4A1000422FD8 /* AppContent.swift */,
 			);
 			path = AppStructure;
@@ -269,7 +269,7 @@
 				5A1EEB452BCD4A4500422FD8 /* FontKeys+App.swift in Sources */,
 				5A3BFC322CCD1CBB001626A1 /* Dependencies+Registration.swift in Sources */,
 				5A1EEB352BCD4A2F00422FD8 /* ExampleScreen.swift in Sources */,
-				5AFC3BA62CB82D0900E837DB /* AppScreen.swift in Sources */,
+				5AFC3BA62CB82D0900E837DB /* AppDestination.swift in Sources */,
 				5A1EEB442BCD4A4500422FD8 /* ColorKeys+App.swift in Sources */,
 				5A1EEB492BCD4A4500422FD8 /* Theme.swift in Sources */,
 				5A1EEB482BCD4A4500422FD8 /* TextSurfaceKeys+App.swift in Sources */,
