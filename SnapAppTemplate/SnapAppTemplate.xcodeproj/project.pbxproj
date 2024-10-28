@@ -28,6 +28,8 @@
 		5A1EEB4B2BCD4A4500422FD8 /* NumberKeys+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */; };
 		5A3BFC102CCD1B03001626A1 /* SnapDependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3BFC0F2CCD1B03001626A1 /* SnapDependencies */; };
 		5A3BFC322CCD1CBB001626A1 /* Dependencies+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3BFC312CCD1CBA001626A1 /* Dependencies+Registration.swift */; };
+		5A3BFCB92CCEF2D3001626A1 /* TemplateSettingsNavigationTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3BFCB82CCEF2CC001626A1 /* TemplateSettingsNavigationTranslator.swift */; };
+		5A3BFCBC2CD01EEE001626A1 /* TemplateDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3BFCBB2CD01EE8001626A1 /* TemplateDependencies.swift */; };
 		5AB0C8A62CB8675800E4BE54 /* AppNavigationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB0C8A52CB8674E00E4BE54 /* AppNavigationProvider.swift */; };
 		5AFC3BA42CB82CEC00E837DB /* SnapNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 5AFC3BA32CB82CEC00E837DB /* SnapNavigation */; };
 		5AFC3BA62CB82D0900E837DB /* AppDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC3BA52CB82D0600E837DB /* AppDestination.swift */; };
@@ -53,8 +55,9 @@
 		5A1EEB3E2BCD4A4500422FD8 /* TextSurfaceKeys+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextSurfaceKeys+App.swift"; sourceTree = "<group>"; };
 		5A1EEB3F2BCD4A4500422FD8 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberKeys+App.swift"; sourceTree = "<group>"; };
-		5A3BFC0D2CCD1ABA001626A1 /* snap-template-shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "snap-template-shared"; path = "/Users/simonnickel/Archive/development/github/swift-packages/snap-template-shared"; sourceTree = "<absolute>"; };
 		5A3BFC312CCD1CBA001626A1 /* Dependencies+Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dependencies+Registration.swift"; sourceTree = "<group>"; };
+		5A3BFCB82CCEF2CC001626A1 /* TemplateSettingsNavigationTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSettingsNavigationTranslator.swift; sourceTree = "<group>"; };
+		5A3BFCBB2CD01EE8001626A1 /* TemplateDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateDependencies.swift; sourceTree = "<group>"; };
 		5AB0C8A52CB8674E00E4BE54 /* AppNavigationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationProvider.swift; sourceTree = "<group>"; };
 		5AFC3BA52CB82D0600E837DB /* AppDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +93,6 @@
 		5A1EEABD2BCD471300422FD8 = {
 			isa = PBXGroup;
 			children = (
-				5A3BFC0D2CCD1ABA001626A1 /* snap-template-shared */,
 				1FF20B6D2C73DED600660878 /* README.md */,
 				5A1EEAC82BCD471300422FD8 /* SnapAppTemplate */,
 				5A1EEAC72BCD471300422FD8 /* Products */,
@@ -130,9 +132,11 @@
 		5A1EEB1A2BCD4A1000422FD8 /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
-				5AB0C8A52CB8674E00E4BE54 /* AppNavigationProvider.swift */,
+				5A3BFCBA2CD01E41001626A1 /* SnapTemplate */,
 				5AFC3BA52CB82D0600E837DB /* AppDestination.swift */,
 				5A1EEB152BCD4A1000422FD8 /* AppContent.swift */,
+				5AB0C8A52CB8674E00E4BE54 /* AppNavigationProvider.swift */,
+				5A3BFC312CCD1CBA001626A1 /* Dependencies+Registration.swift */,
 			);
 			path = AppStructure;
 			sourceTree = "<group>";
@@ -156,7 +160,6 @@
 		5A1EEB372BCD4A3900422FD8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5A3BFC312CCD1CBA001626A1 /* Dependencies+Registration.swift */,
 				5A1EEB362BCD4A3900422FD8 /* Settings.swift */,
 			);
 			path = Services;
@@ -175,6 +178,15 @@
 				5A1EEB412BCD4A4500422FD8 /* NumberKeys+App.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		5A3BFCBA2CD01E41001626A1 /* SnapTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5A3BFCBB2CD01EE8001626A1 /* TemplateDependencies.swift */,
+				5A3BFCB82CCEF2CC001626A1 /* TemplateSettingsNavigationTranslator.swift */,
+			);
+			path = SnapTemplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,11 +279,13 @@
 				5A1EEB2D2BCD4A1E00422FD8 /* DataSource.swift in Sources */,
 				5A1EEB472BCD4A4500422FD8 /* SurfaceKeys+App.swift in Sources */,
 				5A1EEB452BCD4A4500422FD8 /* FontKeys+App.swift in Sources */,
+				5A3BFCB92CCEF2D3001626A1 /* TemplateSettingsNavigationTranslator.swift in Sources */,
 				5A3BFC322CCD1CBB001626A1 /* Dependencies+Registration.swift in Sources */,
 				5A1EEB352BCD4A2F00422FD8 /* ExampleScreen.swift in Sources */,
 				5AFC3BA62CB82D0900E837DB /* AppDestination.swift in Sources */,
 				5A1EEB442BCD4A4500422FD8 /* ColorKeys+App.swift in Sources */,
 				5A1EEB492BCD4A4500422FD8 /* Theme.swift in Sources */,
+				5A3BFCBC2CD01EEE001626A1 /* TemplateDependencies.swift in Sources */,
 				5A1EEB482BCD4A4500422FD8 /* TextSurfaceKeys+App.swift in Sources */,
 				5A1EEACA2BCD471400422FD8 /* SnapAppTemplateApp.swift in Sources */,
 				5AB0C8A62CB8675800E4BE54 /* AppNavigationProvider.swift in Sources */,

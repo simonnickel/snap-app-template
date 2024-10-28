@@ -20,6 +20,7 @@ struct SnapAppTemplateApp: App {
 		}
 #endif
     }
+	
 }
 
 

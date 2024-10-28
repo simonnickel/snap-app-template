@@ -11,9 +11,13 @@ import SnapNavigation
 extension Dependencies: @retroactive DependencyRegistration {
 	
 	public func registerDependencies() {
-		Dependencies.register(type: Navigator.self) { Navigator(provider: AppNavigationProvider()) }
+		
+		// Register dependencies from Template.
 		TemplateDependencies.registerDependencies()
 
+		
+		// MARK: - App Dependencies
+		
 		Dependencies.register(type: DataSource.self) { DataSource() }
 		
 	}
