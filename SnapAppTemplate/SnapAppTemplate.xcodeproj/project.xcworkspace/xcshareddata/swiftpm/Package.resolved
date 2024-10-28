@@ -1,5 +1,5 @@
 {
-  "originHash" : "8945373f88bb2bc7bf25daf46b7c303186a042ac24e79a386d233d88a5d7a5a7",
+  "originHash" : "21f63ec468c87c1bc8769d480c608a7688cdf99f884b17d52915f62698bb779b",
   "pins" : [
     {
       "identity" : "snap-core",
@@ -8,6 +8,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "f1dc2e740961f5607c0271bc13ce6d56f00eff20"
+      }
+    },
+    {
+      "identity" : "snap-dependencies",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/simonnickel/snap-dependencies.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "297e7cbfc1de4bca09fe388daf905825d1514bc8"
       }
     },
     {
