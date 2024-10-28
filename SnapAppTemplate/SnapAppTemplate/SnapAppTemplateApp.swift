@@ -16,7 +16,8 @@ struct SnapAppTemplateApp: App {
 		
 #if os(macOS)
 		Settings {
-			SettingsScene()
+			// TODO: Fix navigation, needs its own SnapNavigationStack?
+			TemplateSettingsScreen()
 		}
 #endif
     }
