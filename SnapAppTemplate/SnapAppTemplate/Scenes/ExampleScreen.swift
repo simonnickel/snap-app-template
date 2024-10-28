@@ -12,7 +12,6 @@ struct ExampleScreen: View {
 	@Environment(\.theme) private var theme
 	@Dependency private var dataSource: DataSource
 	
-	// TODO: Is not used.
 	let destination: AppDestination
 	
 	var body: some View {
@@ -21,6 +20,7 @@ struct ExampleScreen: View {
 			
 			VStack {
 				
+				Text(destination.definition.title + " Screen")
 				Text(dataSource.content)
 				
 				Button(action: {}, label: {
