@@ -1,9 +1,6 @@
 > This repository is part of the [SNAP](https://github.com/simonnickel/snap) suite.
 
 
-// TODO: Fix Sidebar background
-
-
 # SnapAppTemplate
 
 An Xcode project with a base setup of [SNAP](https://github.com/simonnickel/snap). The app comes with structure, navigation and infrastructure prepared, to quickly setup a new app using the SNAP packages.
@@ -17,13 +14,15 @@ Also have a look at [snap-template-shared](https://github.com/simonnickel/snap-t
 >
 > (Source: Someone on the internet)
 
-The goal of SnapTemplate is to already have the last 20% ready, before you even start the project. Even if you don't plan to finish it, testing a quick idea is much better with a full app experience around it.
+The goal of SnapTemplate is to already have the last 20% ready, before you even start the project. The same applies to the first 20% of a project: infrastructure, boilerplate and project setup. 
+
+Even if you don't plan to finish the last 60% of it, it allows to test a quick idea with a full app experience around it.
 
 
 ## Create new App
 
 1. Create and clone repository.
-2. Copy files from snap-app-template.
+2. Copy files from snap-app-template and get everything in the correct place.
 3. Rename project.
     1. Rename top item in project navigator.
     2. Change bundle identifier.
