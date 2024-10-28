@@ -56,7 +56,6 @@ Added `ITSAppUsesNonExemptEncryption` key with value `NO`, see: [Complying with 
 
 ## // TODO:  
 
-- Documentation
 - Settings Screen
     - Settings Header
     - Contact
@@ -64,3 +63,4 @@ Added `ITSAppUsesNonExemptEncryption` key with value `NO`, see: [Complying with 
 - SwiftData with sync
 - Widgets using SwiftData (display, edit)
 - Release Notes
+- Multiple windows
