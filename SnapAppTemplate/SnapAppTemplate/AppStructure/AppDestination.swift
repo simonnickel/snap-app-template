@@ -6,8 +6,9 @@
 import SwiftUI
 import SnapNavigation
 import SnapTheme
+import SnapTemplateShared
 
-enum AppScreen: SnapNavigationScreen {
+enum AppDestination: SnapNavigationDestination {
 		
 	case rectangle
 	case rectangleA, rectangleB
@@ -17,9 +18,9 @@ enum AppScreen: SnapNavigationScreen {
 	
 	case triangle
 	
-	case settings
+	case settingsTemplate(_ destination: TemplateSettingsDestination)
 
-	var definition: SnapNavigation.ScreenDefinition<Self> {
+	var definition: SnapNavigation.ScreenDefinition {
 		switch self {
 			case .rectangle: .init(title: "Rectangle", icon: Theme.IconKey.navGroupRectangle)
 			case .rectangleA: .init(title: "Rectangle A", icon: Theme.IconKey.navGroupRectangle.id)
@@ -30,7 +31,7 @@ enum AppScreen: SnapNavigationScreen {
 				
 			case .triangle: .init(title: "Triangle", icon: Theme.IconKey.navGroupTriangle)
 			
-			case .settings: .init(title: "Settings", icon: Theme.IconKey.settings) { _ in SettingsScene() }
+			case .settingsTemplate(let destination): destination.definition
 		}
 	}
 	
@@ -45,7 +46,7 @@ enum AppScreen: SnapNavigationScreen {
 	
 	@MainActor
 	var destination: any View {
-		definition.destination?(self) ?? ExampleScreen(screen: self)
+		definition.destination?() ?? ExampleScreen(destination: self)
 	}
 	
 }

@@ -1,5 +1,5 @@
 {
-  "originHash" : "68ccd16811460c49150c4c21ac716b632d653da04cfe9b67e075a73ef2fa9cf8",
+  "originHash" : "8945373f88bb2bc7bf25daf46b7c303186a042ac24e79a386d233d88a5d7a5a7",
   "pins" : [
     {
       "identity" : "snap-core",
@@ -25,7 +25,7 @@
       "location" : "https://github.com/simonnickel/snap-navigation",
       "state" : {
         "branch" : "main",
-        "revision" : "5dd4a51b43966b5c55dade678dd9b4d8445e8261"
+        "revision" : "4dd50070eb6a12e8ef6240bdfdab4007128050ec"
       }
     },
     {
@@ -43,7 +43,7 @@
       "location" : "https://github.com/simonnickel/snap-template-shared.git",
       "state" : {
         "branch" : "main",
-        "revision" : "82bda63fbbf7a2c1c937feefcf08cad28a6f8694"
+        "revision" : "b181bd44eac6343ee95d74f33440c09568fd5304"
       }
     },
     {
