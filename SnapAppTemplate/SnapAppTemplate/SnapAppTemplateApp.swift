@@ -4,7 +4,7 @@
 //
 
 import SwiftUI
-import SnapTemplateShared
+import SnapTemplateSettings
 
 @main
 struct SnapAppTemplateApp: App {

@@ -4,7 +4,8 @@
 //
 
 import SnapDependencies
-import SnapTemplateShared
+import SnapTemplate
+import SnapTemplateSettings
 
 public enum TemplateDependencies {
 	

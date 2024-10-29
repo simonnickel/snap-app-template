@@ -5,7 +5,7 @@
 
 import SwiftUI
 import SnapTheme
-import SnapTemplateShared
+import SnapTemplate
 import SnapNavigation
 import SnapDependencies
 

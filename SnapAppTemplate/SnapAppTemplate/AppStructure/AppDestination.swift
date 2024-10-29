@@ -6,7 +6,7 @@
 import SwiftUI
 import SnapNavigation
 import SnapTheme
-import SnapTemplateShared
+import SnapTemplateSettings
 
 enum AppDestination: SnapNavigationDestination {
 		

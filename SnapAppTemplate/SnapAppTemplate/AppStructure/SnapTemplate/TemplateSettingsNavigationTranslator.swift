@@ -5,7 +5,7 @@
 
 import SnapNavigation
 import SnapDependencies
-import SnapTemplateShared
+import SnapTemplateSettings
 
 struct TemplateSettingsNavigationTranslator: TemplateSettingsNavigator {
 	
