@@ -10,7 +10,7 @@ extension Dependencies: @retroactive DependencyRegistration {
 	public func registerDependencies() {
 		
 		// Register dependencies from Template.
-		TemplateDependencies.registerDependencies()
+		TemplateAppDependencies.registerDependencies()
 
 		
 		// MARK: - App Dependencies

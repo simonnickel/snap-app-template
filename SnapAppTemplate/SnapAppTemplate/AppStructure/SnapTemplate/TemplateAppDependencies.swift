@@ -7,18 +7,18 @@ import SnapDependencies
 import SnapTemplate
 import SnapTemplateSettings
 
-public enum TemplateDependencies {
+public enum TemplateAppDependencies {
 	
 	public static func registerDependencies() {
 		
-		// MARK: - Template Dependencies
+		// MARK: - App Dependencies
 		
 		Dependencies.register(type: Navigator.self) { Navigator(provider: AppNavigationProvider()) }
 		
 		
-		// MARK: - TemplateShared Dependencies
+		// MARK: - Template Dependencies
 		
-		TemplateSharedDependencies.registerDependencies()
+		TemplateDependencies.registerDependencies()
 		Dependencies.register(type: TemplateSettingsNavigator.self) { TemplateSettingsNavigationTranslator() }
 		
 	}
