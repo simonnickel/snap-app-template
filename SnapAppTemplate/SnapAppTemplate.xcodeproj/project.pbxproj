@@ -30,11 +30,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5A0803F82CD026A4004680B3 /* AppStructure */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppStructure; sourceTree = "<group>"; };
+		5A0803F82CD026A4004680B3 /* AppDefinition */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppDefinition; sourceTree = "<group>"; };
 		5A0804002CD026B6004680B3 /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
 		5A0804032CD026BB004680B3 /* Data */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Data; sourceTree = "<group>"; };
 		5A08040D2CD026D7004680B3 /* Theme */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Theme; sourceTree = "<group>"; };
-		5A0804172CD026DB004680B3 /* Scenes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Scenes; sourceTree = "<group>"; };
+		5A0804172CD026DB004680B3 /* Screens */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Screens; sourceTree = "<group>"; };
 		5A08041E2CD026E7004680B3 /* Project Files */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5A0804212CD026E7004680B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Project Files"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -72,11 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				5A1EEAC92BCD471400422FD8 /* SnapAppTemplateApp.swift */,
-				5A0803F82CD026A4004680B3 /* AppStructure */,
+				5A0803F82CD026A4004680B3 /* AppDefinition */,
 				5A0804002CD026B6004680B3 /* Services */,
 				5A0804032CD026BB004680B3 /* Data */,
 				5A08040D2CD026D7004680B3 /* Theme */,
-				5A0804172CD026DB004680B3 /* Scenes */,
+				5A0804172CD026DB004680B3 /* Screens */,
 				5A08041E2CD026E7004680B3 /* Project Files */,
 			);
 			path = SnapAppTemplate;
@@ -98,11 +98,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5A0803F82CD026A4004680B3 /* AppStructure */,
+				5A0803F82CD026A4004680B3 /* AppDefinition */,
 				5A0804002CD026B6004680B3 /* Services */,
 				5A0804032CD026BB004680B3 /* Data */,
 				5A08040D2CD026D7004680B3 /* Theme */,
-				5A0804172CD026DB004680B3 /* Scenes */,
+				5A0804172CD026DB004680B3 /* Screens */,
 			);
 			name = SnapAppTemplate;
 			packageProductDependencies = (
