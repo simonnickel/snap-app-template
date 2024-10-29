@@ -3,8 +3,8 @@
 //  Created by Simon Nickel
 //
 
-import SnapNavigation
 import SnapDependencies
+import SnapNavigation
 import SnapTemplateSettings
 
 struct TemplateSettingsNavigationTranslator: TemplateSettingsNavigator {

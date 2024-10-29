@@ -3,7 +3,6 @@
 //  Created by Simon Nickel
 //
 
-import SwiftUI
 import SnapTheme
 
 extension Theme.NumberKey {

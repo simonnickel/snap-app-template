@@ -4,9 +4,6 @@
 //
 
 import SnapDependencies
-import SnapSettingsService
-import SnapTemplate
-import SnapNavigation
 
 extension Dependencies: @retroactive DependencyRegistration {
 	

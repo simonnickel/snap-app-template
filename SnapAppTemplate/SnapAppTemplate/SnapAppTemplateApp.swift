@@ -3,8 +3,8 @@
 //  Created by Simon Nickel
 //
 
-import SwiftUI
 import SnapTemplateSettings
+import SwiftUI
 
 @main
 struct SnapAppTemplateApp: App {

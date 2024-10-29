@@ -3,10 +3,10 @@
 //  Created by Simon Nickel
 //
 
-import SwiftUI
 import SnapNavigation
-import SnapTheme
 import SnapTemplateSettings
+import SnapTheme
+import SwiftUI
 
 enum AppDestination: SnapNavigationDestination {
 		
