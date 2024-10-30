@@ -3,15 +3,18 @@
 //  Created by Simon Nickel
 //
 
+import SnapDependencies
 import SnapTemplate
 import SwiftUI
 
 /// A container to apply app specific customisation to the content.
 struct AppContent: View {
+	
+	@Dependency(\.navigator) private var navigator
 
 	var body: some View {
 	
-		TemplateContent<AppNavigationProvider>()
+		TemplateContent(navigator: navigator)
 		
 	}
 	

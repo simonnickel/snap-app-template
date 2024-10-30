@@ -10,7 +10,7 @@ import SnapDependencies
 struct ExampleScreen: View {
 	
 	@Environment(\.theme) private var theme
-	@Dependency private var dataSource: DataSource
+	@Dependency(\.dataSource) private var dataSource
 	
 	let destination: AppDestination
 	

@@ -9,7 +9,7 @@ import SnapTemplateSettings
 
 struct TemplateSettingsNavigationTranslator: TemplateSettingsNavigator {
 	
-	@Dependency private var navigator: Navigator
+	@Dependency(\.navigator) private var navigator: Navigator
 	
 	@MainActor
 	public func navigate(to destination: TemplateSettingsDestination) {

@@ -16,7 +16,7 @@ struct SnapAppTemplateApp: App {
 		
 #if os(macOS)
 		Settings {
-			// TODO: Fix navigation, needs its own SnapNavigationStack?
+			// TODO: Fix navigation by implementing window support in SnapNavigation
 			TemplateSettingsScreen()
 		}
 #endif
