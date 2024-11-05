@@ -11,7 +11,7 @@ internal struct TemplateSidebarModifier : ViewModifier {
 	
 	internal func body(content: Content) -> some View {
 		content
-			.environment(\.navigatorSettings, TemplateSettingsNavigationTranslator(navigator: navigator))
+			.environment(\.navigatorSettings, TemplateSettingsDestinationTranslator(navigator: navigator))
 	}
 	
 }

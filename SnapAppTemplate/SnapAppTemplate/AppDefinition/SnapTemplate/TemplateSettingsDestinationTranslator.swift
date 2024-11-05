@@ -8,7 +8,7 @@ import SnapNavigation
 import SnapTemplateSettings
 import SwiftUI
 
-struct TemplateSettingsNavigationTranslator: TemplateSettingsNavigator {
+struct TemplateSettingsDestinationTranslator: TemplateSettingsNavigator {
 	
 	let navigator: Navigator
 	
@@ -30,18 +30,18 @@ struct TemplateSettingsNavigationTranslator: TemplateSettingsNavigator {
 public extension View {
 	
 	func setupTemplateSettingsNavigator() -> some View {
-		modifier(TemplateSettingsNavigatorSetupModifier())
+		modifier(TemplateSettingsNavigatorModifier())
 	}
 	
 }
 
-internal struct TemplateSettingsNavigatorSetupModifier : ViewModifier {
+internal struct TemplateSettingsNavigatorModifier : ViewModifier {
 
 	@Environment(Navigator.self) private var navigator
 	
 	internal func body(content: Content) -> some View {
 		content
-			.environment(\.navigatorSettings, TemplateSettingsNavigationTranslator(navigator: navigator))
+			.environment(\.navigatorSettings, TemplateSettingsDestinationTranslator(navigator: navigator))
 	}
 	
 }
