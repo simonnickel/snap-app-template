@@ -15,17 +15,7 @@ struct SnapAppTemplateApp: App {
 
 		SnapNavigationWindows(provider: AppNavigationProvider()) { scene, content in
 			content
-				.setupTemplateConfig(for: scene)
-			// TODO: Handle tabViewSidebarBottomBar in template
-#if !os(macOS) // macOS settings are available in the application menu.
-				.tabViewSidebarBottomBar {
-					HStack {
-						ToolbarButtonSettings()
-						Spacer()
-					}
-					.setupTemplateSettingsNavigator()
-				}
-#endif
+				.setupTemplateConfig(for: scene, sidebarModifier: TemplateSidebarModifier())
 		}
 
     }

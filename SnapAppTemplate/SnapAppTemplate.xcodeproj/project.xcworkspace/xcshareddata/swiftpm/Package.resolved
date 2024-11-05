@@ -1,5 +1,5 @@
 {
-  "originHash" : "74aaab44eb6099d4c8f42270140cdfe7a249431901d8416fa390808ac898f6e2",
+  "originHash" : "f3c573ae9422d62d5553c73dcee9884021163d9320b62755fee236b5c829a6c7",
   "pins" : [
     {
       "identity" : "snap-core",
@@ -44,15 +44,6 @@
       "state" : {
         "branch" : "main",
         "revision" : "a35bba11b85370f54c2a536532c40c3af65d1d43"
-      }
-    },
-    {
-      "identity" : "snap-template",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/simonnickel/snap-template",
-      "state" : {
-        "branch" : "main",
-        "revision" : "a88bd1d5d3a96c92b98315e29cf5af73c5370794"
       }
     },
     {
