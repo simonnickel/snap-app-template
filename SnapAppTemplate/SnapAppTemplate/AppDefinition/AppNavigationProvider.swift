@@ -11,7 +11,12 @@ struct AppNavigationProvider: SnapNavigationProvider {
 	
 	typealias Destination = AppDestination
 	
-	var initialSelection: Destination { .triangle }
+	func initial(for scene: SnapNavigation.NavigationScene<Destination>.Initializable) -> Destination {
+		switch scene {
+			case .main: .triangle
+			case .settings: .settingsTemplate(.screen)
+		}
+	}
 	
 	var selectableDestinations: [Destination] { [.triangle, .rectangle, .circle] }
 	

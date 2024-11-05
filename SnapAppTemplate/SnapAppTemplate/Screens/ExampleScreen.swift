@@ -11,6 +11,7 @@ struct ExampleScreen: View {
 	
 	@Environment(\.theme) private var theme
 	@Dependency(\.dataSource) private var dataSource
+	@Environment(Navigator.self) private var navigator
 	
 	let destination: AppDestination
 	
@@ -23,8 +24,10 @@ struct ExampleScreen: View {
 				Text(destination.definition.title + " Screen")
 				Text(dataSource.content)
 				
-				Button(action: {}, label: {
-					ThemeLabel(text: "Button", style: .themeButtonPrimary)
+				Button(action: {
+					navigator.present(destination: .circle)
+				}, label: {
+					ThemeLabel(text: "Push .circle", style: .themeButtonPrimary)
 				})
 				.buttonStyle(.themePrimary)
 				

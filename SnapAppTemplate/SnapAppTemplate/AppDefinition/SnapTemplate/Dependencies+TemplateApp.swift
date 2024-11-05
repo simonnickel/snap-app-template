@@ -7,13 +7,7 @@ import SnapDependencies
 import SnapTemplate
 import SnapTemplateSettings
 
-extension Dependencies {
-		
-	var navigator: Navigator { Navigator(provider: AppNavigationProvider()) }
-	
-}
-
-
+// TODO: Keep as example how to forward dependency
 // MARK: - DependencyForwardingFactory
 
 extension Dependencies: @retroactive DependencyForwardingFactory {
@@ -21,7 +15,7 @@ extension Dependencies: @retroactive DependencyForwardingFactory {
 	public func create<Dependency>(for keyPath: KeyPath<Dependencies, Dependency>) -> Dependency? {
 		switch keyPath {
 				
-			case \.templateSettingsNavigator: TemplateSettingsNavigationTranslator() as? Dependency
+//			case \.templateSettingsNavigator: TemplateSettingsNavigationTranslator() as? Dependency
 				
 			default: nil
 

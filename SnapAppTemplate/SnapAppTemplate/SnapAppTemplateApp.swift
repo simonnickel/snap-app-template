@@ -3,23 +3,31 @@
 //  Created by Simon Nickel
 //
 
-import SnapTemplateSettings
+import SnapNavigation
+import SnapTemplate
 import SwiftUI
+import SnapTemplateSettings
 
 @main
 struct SnapAppTemplateApp: App {
 	
     var body: some Scene {
-		WindowGroup {
-			AppContent()
-		}
-		
-#if os(macOS)
-		Settings {
-			// TODO: Fix navigation by implementing window support in SnapNavigation
-			TemplateSettingsScreen()
-		}
+
+		SnapNavigationWindows(provider: AppNavigationProvider()) { scene, content in
+			content
+				.setupTemplateConfig(for: scene)
+			// TODO: Handle tabViewSidebarBottomBar in template
+#if !os(macOS) // macOS settings are available in the application menu.
+				.tabViewSidebarBottomBar {
+					HStack {
+						ToolbarButtonSettings()
+						Spacer()
+					}
+					.setupTemplateSettingsNavigator()
+				}
 #endif
+		}
+
     }
 	
 }
@@ -38,6 +46,7 @@ struct SnapAppTemplateApp: App {
 //		)
 //	)
 	
-	return AppContent()
+	SnapNavigationPreview(provider: AppNavigationProvider(), scene: .main)
+
 	
 }

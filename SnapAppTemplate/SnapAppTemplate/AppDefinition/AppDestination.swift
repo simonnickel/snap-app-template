@@ -46,6 +46,12 @@ enum AppDestination: SnapNavigationDestination {
 	
 	@MainActor
 	var destination: any View {
+		destinationPlain
+			.setupTemplateSettingsNavigator() // TODO: Should destination setup be part of SnapNavigation? like SceneSetup in SnapNavigationWindows ?
+	}
+	
+	@MainActor
+	private var destinationPlain: any View {
 		definition.destination?() ?? ExampleScreen(destination: self)
 	}
 	
