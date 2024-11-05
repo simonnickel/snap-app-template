@@ -15,7 +15,7 @@ struct SnapAppTemplateApp: App {
 
 		SnapNavigationWindows(provider: AppNavigationProvider()) { scene, content in
 			content
-				.setupTemplateConfig(for: scene, sidebarModifier: TemplateSidebarModifier())
+				.templateSetupScene(scene, sidebarModifier: TemplateSidebarModifier())
 		}
 
     }
