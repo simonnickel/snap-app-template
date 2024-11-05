@@ -5,6 +5,9 @@
 
 import SnapDependencies
 
+
+// MARK: - App Dependencies
+
 extension Dependencies {
 	
 	var dataSource: DataSource { DataSource() }
