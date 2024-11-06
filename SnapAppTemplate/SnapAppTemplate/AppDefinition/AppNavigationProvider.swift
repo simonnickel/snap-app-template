@@ -19,6 +19,7 @@ struct AppNavigationProvider: SnapNavigationProvider {
 		}
 	}
 	
+	// TODO: for scene ?
 	var selectableDestinations: [Destination] { [.triangle, .rectangle, .circle] }
 	
 	func parent(of destination: Destination) -> Destination? {
