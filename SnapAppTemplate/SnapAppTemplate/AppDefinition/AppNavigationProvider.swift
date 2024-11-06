@@ -4,6 +4,7 @@
 //
 
 import SnapNavigation
+import SnapTemplateSettings
 
 typealias Navigator = SnapNavigation.Navigator<AppNavigationProvider>
 
@@ -28,4 +29,13 @@ struct AppNavigationProvider: SnapNavigationProvider {
 		}
 	}
 	
+	func translate(_ destination: any SnapNavigationDestination) -> AppDestination? {
+		switch destination {
+			case let destination as AppDestination: destination
+			
+			case let destination as TemplateSettingsDestination: .settingsTemplate(destination)
+			
+			default: nil
+		}
+	}
 }

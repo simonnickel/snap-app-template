@@ -46,12 +46,6 @@ enum AppDestination: SnapNavigationDestination {
 	
 	@MainActor
 	var destination: any View {
-		destinationPlain
-			.templateSetupScreen()
-	}
-	
-	@MainActor
-	private var destinationPlain: any View {
 		definition.destination?() ?? ExampleScreen(destination: self)
 	}
 	

@@ -8,6 +8,8 @@ import SnapTemplate
 import SwiftUI
 import SnapTemplateSettings
 
+// TODO: === AttributeGraph: cycle detected through attribute 1891112 ===
+
 @main
 struct SnapAppTemplateApp: App {
 	
@@ -15,7 +17,7 @@ struct SnapAppTemplateApp: App {
 
 		SnapNavigationWindows(provider: AppNavigationProvider()) { scene, content in
 			content
-				.modifier(TemplateModifierScene(scene: scene, sidebarModifier: TemplateModifierSidebar()))
+				.modifier(TemplateModifierScene(scene: scene))
 		}
 
     }
