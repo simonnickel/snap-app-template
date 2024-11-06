@@ -27,15 +27,15 @@ struct TemplateSettingsDestinationTranslator: TemplateSettingsNavigator {
 
 // MARK: - View Modifier
 
-public extension View {
+extension View {
 	
-	func setupTemplateSettingsNavigator() -> some View {
-		modifier(TemplateSettingsNavigatorModifier())
+	func templateSetupSettingsNavigator() -> some View {
+		modifier(TemplateModifierSettingsNavigator())
 	}
 	
 }
 
-internal struct TemplateSettingsNavigatorModifier : ViewModifier {
+fileprivate struct TemplateModifierSettingsNavigator : ViewModifier {
 
 	@Environment(Navigator.self) private var navigator
 	

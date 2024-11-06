@@ -5,11 +5,11 @@
 
 import SwiftUI
 
-internal struct TemplateSidebarModifier : ViewModifier {
+internal struct TemplateModifierSidebar : ViewModifier {
 	
 	internal func body(content: Content) -> some View {
 		content
-			.setupTemplateSettingsNavigator()
+			.templateSetupSettingsNavigator()
 	}
 	
 }
