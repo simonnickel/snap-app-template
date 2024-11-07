@@ -22,7 +22,7 @@ struct AppNavigationProvider: SnapNavigationProvider {
 	func selectableDestinations(for scene: SnapNavigation.NavigationScene<Destination>) -> [Destination] {
 		switch scene {
 			case .main: [.triangle, .rectangle, .circle]
-			case .window(let id, let style, let content):
+			case .window(_, let style, let content):
 				if style != .single, case .route(to: _) = content {
 					selectableDestinations(for: .main)
 				} else {
