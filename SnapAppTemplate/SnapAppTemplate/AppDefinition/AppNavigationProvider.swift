@@ -19,8 +19,18 @@ struct AppNavigationProvider: SnapNavigationProvider {
 		}
 	}
 	
-	// TODO: for scene ?
-	var selectableDestinations: [Destination] { [.triangle, .rectangle, .circle] }
+	func selectableDestinations(for scene: SnapNavigation.NavigationScene<Destination>) -> [Destination] {
+		switch scene {
+			case .main: [.triangle, .rectangle, .circle]
+			case .window(let id, let style, let content):
+				if style != .single, case .route(to: _) = content {
+					selectableDestinations(for: .main)
+				} else {
+					[]
+				}
+			case .settings: []
+		}
+	}
 	
 	func parent(of destination: Destination) -> Destination? {
 		switch destination {
