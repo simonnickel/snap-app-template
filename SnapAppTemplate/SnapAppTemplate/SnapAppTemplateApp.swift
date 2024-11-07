@@ -8,7 +8,6 @@ import SnapTemplate
 import SwiftUI
 import SnapTemplateSettings
 
-// TODO: === AttributeGraph: cycle detected through attribute 1891112 ===
 // TODO: Settings on iPhone
 
 @main
