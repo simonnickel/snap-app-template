@@ -3,14 +3,14 @@
 //  Created by Simon Nickel
 //
 
-import SwiftUI
-import SnapTheme
 import SnapDependencies
+import SnapNavigation
+import SnapTemplateShared
+import SnapTheme
+import SwiftUI
 
 // TODO: See ToolbarButtonSettings below
 import SnapTemplateSettings
-import SnapTemplateShared
-import SnapNavigation
 
 struct ExampleScreen: View {
 	

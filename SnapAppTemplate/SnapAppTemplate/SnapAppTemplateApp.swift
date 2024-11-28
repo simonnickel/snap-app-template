@@ -6,7 +6,6 @@
 import SnapNavigation
 import SnapTemplate
 import SwiftUI
-import SnapTemplateSettings
 
 // TODO: Settings on iPhone
 
