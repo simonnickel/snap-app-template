@@ -1,4 +1,5 @@
-> This repository is part of the [SNAP](https://github.com/simonnickel/snap) suite.
+> [!CAUTION]
+> This repository no longer active, have a look into the SnapTemplateDemo project in [snap-template](https://github.com/simonnickel/snap-template).
 
 
 # SnapAppTemplate
