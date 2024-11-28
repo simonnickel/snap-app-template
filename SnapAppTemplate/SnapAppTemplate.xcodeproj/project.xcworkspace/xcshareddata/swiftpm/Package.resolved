@@ -34,7 +34,7 @@
       "location" : "https://github.com/simonnickel/snap-navigation.git",
       "state" : {
         "branch" : "main",
-        "revision" : "456d34ed0fbd9d3c4187ff117d84ee910fe9e32f"
+        "revision" : "d4e26205630c37fc00c30ae0b24c2f6e9937b725"
       }
     },
     {
@@ -52,7 +52,7 @@
       "location" : "https://github.com/simonnickel/snap-template",
       "state" : {
         "branch" : "main",
-        "revision" : "7f6b424473fc6325922482d480ff294cb1e0aaad"
+        "revision" : "f25f3384f61f522c17aa0e8e3fb7205e82a2cab8"
       }
     },
     {

@@ -6,24 +6,22 @@
 import SnapNavigation
 import SnapTemplateSettings
 
-typealias Navigator = SnapNavigation.Navigator<AppNavigationProvider>
-
 struct AppNavigationProvider: SnapNavigationProvider {
 	
 	typealias Destination = AppDestination
 	
-	func initial(for scene: SnapNavigation.NavigationScene<Destination>.Initializable) -> Destination {
+	func initial(for scene: SnapNavigation.Window<Destination>.Initializable) -> Destination {
 		switch scene {
 			case .main: .triangle
 			case .settings: .settingsTemplate(.screen)
 		}
 	}
 	
-	func selectableDestinations(for scene: SnapNavigation.NavigationScene<Destination>) -> [Destination] {
+	func selectableDestinations(for scene: SnapNavigation.Window<Destination>) -> [Destination] {
 		switch scene {
 			case .main: [.triangle, .rectangle, .circle]
-			case .window(_, let style, let content):
-				if style != .single, case .route(to: _) = content {
+			case .window(_, let configuration):
+                if configuration.style != .single, configuration.shouldBuildRoute {
 					selectableDestinations(for: .main)
 				} else {
 					[]

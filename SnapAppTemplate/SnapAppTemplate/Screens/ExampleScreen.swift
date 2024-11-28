@@ -9,12 +9,14 @@ import SnapDependencies
 
 // TODO: See ToolbarButtonSettings below
 import SnapTemplateSettings
+import SnapTemplateShared
+import SnapNavigation
 
 struct ExampleScreen: View {
 	
 	@Environment(\.theme) private var theme
 	@Dependency(\.dataSource) private var dataSource
-	@Environment(Navigator.self) private var navigator
+    @Environment(\.navigator) private var navigator
 	
 	let destination: AppDestination
 	
@@ -29,7 +31,7 @@ struct ExampleScreen: View {
                     Text(dataSource.content)
                         .themeListRow()
                     
-                    Navigator.ListRow(destination: .rectangle)
+                    NavigationListRow(destination: AppDestination.rectangle)
                     
                 } header: {
                     
@@ -40,7 +42,7 @@ struct ExampleScreen: View {
                     
                     ThemeVStack(spacing: .spacingElements) {
                         Button(action: {
-                            navigator.present(destination: .circle)
+                            navigator(.present(AppDestination.circle))
                         }, label: {
                             ThemeLabel(text: "Push .circle", style: .themeButtonPrimary)
                         })
@@ -65,11 +67,8 @@ struct ExampleScreen: View {
 
 // MARK: - Preview
 
-import SnapNavigation
-
 #Preview {
 	
-    // TODO: Provide simple Container with all environment set up. Or provide default value for EnvironmentObject Navigator.
-    SnapNavigationPreview(provider: AppNavigationProvider(), scene: .main)
+    ExampleScreen(destination: .circle)
 	
 }

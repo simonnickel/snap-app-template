@@ -15,9 +15,9 @@ struct SnapAppTemplateApp: App {
 	
     var body: some Scene {
 
-		SnapNavigationWindows(provider: AppNavigationProvider()) { scene, content in
+		SnapNavigationApp(provider: AppNavigationProvider()) { window, content in
 			content
-				.modifier(TemplateModifierScene(scene: scene))
+				.modifier(TemplateModifierScene(window: window))
 		}
 
     }
@@ -38,7 +38,7 @@ struct SnapAppTemplateApp: App {
 //		)
 //	)
 	
-	SnapNavigationPreview(provider: AppNavigationProvider(), scene: .main)
+	SnapNavigationPreview(provider: AppNavigationProvider())
 
 	
 }
